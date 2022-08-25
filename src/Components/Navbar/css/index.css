@@ -50,32 +50,48 @@
   margin: 10px auto;
   text-decoration: none;
   display: block;
+  position: relative;
+  width: 100%;
 }
 .navbar__container nav a i {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 .navbar__container nav a:hover {
-  color: #B22824;
+  color: #fb3d36;
+  text-shadow: 1px white;
 }
 .navbar__container nav a:hover svg {
   opacity: 0;
 }
 .navbar__container nav a:hover::after {
+  opacity: 1;
+}
+.navbar__container nav a::after {
   content: "";
   font-size: 1rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   text-align: center;
-  display: block;
   position: absolute;
   bottom: 0;
+  margin: 0 auto;
+  display: block;
   width: 100%;
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.navbar__container nav a:hover:first-child::after {
+.navbar__container nav a:first-child::after {
   content: "HOME";
+}
+.navbar__container nav a.about-link::after {
+  content: "ABOUT";
+}
+.navbar__container nav a.projects-link::after {
+  content: "PROJECTS";
+}
+.navbar__container nav a.active svg {
+  color: #fb3d36;
 }
 .navbar__container .contact__container {
   width: 100%;
@@ -111,4 +127,7 @@
   font-size: 2.5rem;
   margin: 10px auto;
   text-align: center;
+}
+.navbar__container .contact__container ul li a:hover svg {
+  color: #fb3d36;
 }
