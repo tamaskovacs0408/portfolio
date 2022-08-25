@@ -6,6 +6,8 @@
   top: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  // justify-content: space-between;
 
   .logo {
     display: block;
@@ -18,7 +20,14 @@
       width: 65px;
     }
     #logo_sub {
-      width: 80px;
+      width: 100px;
     }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
   }
 }
