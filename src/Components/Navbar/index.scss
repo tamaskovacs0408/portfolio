@@ -1,0 +1,24 @@
+.navbar__container {
+  background-color: #000;
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    display: block;
+    padding: 10px 0;
+
+
+    img {
+      display: block;
+      margin: 10px auto;
+      width: 65px;
+    }
+    #logo_sub {
+      width: 80px;
+    }
+  }
+}
