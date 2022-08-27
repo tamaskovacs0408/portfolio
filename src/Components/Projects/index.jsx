@@ -1,8 +1,14 @@
+import Loader from 'react-loaders';
 import './index.scss';
 
 const Projects = () => {
   return (
-    <>Projects</>
+    <>
+      <div>
+
+      </div>
+      <Loader type="ball-scale-ripple-multiple"/>
+    </>
   )
 }
 

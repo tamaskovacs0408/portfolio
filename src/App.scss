@@ -3,7 +3,24 @@ $gray-color: #3A3A3C;
 $main-color: #FFFFFF;
 $navbar-bg: #0000;
 
+@import 'animate.css';
+@import 'loaders.css/src/animations/ball-scale-ripple-multiple.scss';
+
 @font-face {
   font-family: 'Futura';
   src: url('./Assets/Font/futura_lt.ttf') format('ttf');
+}
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  animation: fadeOut .5s .5s;
+  animation-fill-mode: forwards;
 }
