@@ -80,6 +80,11 @@
         content: 'ABOUT';
       }
     }
+    a.skills-link {
+      &::after {
+        content: 'SKILLS';
+      }
+    }
     a.projects-link {
       &::after {
         content: 'PROJECTS';

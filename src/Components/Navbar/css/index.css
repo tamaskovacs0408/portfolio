@@ -87,6 +87,9 @@
 .navbar__container nav a.about-link::after {
   content: "ABOUT";
 }
+.navbar__container nav a.skills-link::after {
+  content: "SKILLS";
+}
 .navbar__container nav a.projects-link::after {
   content: "PROJECTS";
 }

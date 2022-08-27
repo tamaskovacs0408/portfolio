@@ -4,6 +4,7 @@ import About from './Components/About/index';
 import Layout from './Components/Layout/index';
 import Projects from './Components/Projects/index';
 import Home from './Components/Home/index';
+import Skills from './Components/Skills/index';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home />} />
           <Route path='about' element={<About />}/>
+          <Route path='skills' element={<Skills/>}/>
           <Route path='/projects' element={<Projects />} />
         </Route>
       </Routes>

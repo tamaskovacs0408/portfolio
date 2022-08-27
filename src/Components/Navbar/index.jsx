@@ -3,7 +3,7 @@ import "./index.scss";
 import LogoTK from "../../Assets/Images/tk_pic.png";
 import LogoTKsub from "../../Assets/Images/tamkov.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEye, faAt } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faEye, faAt, faGear } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
@@ -28,6 +28,14 @@ const Navbar = () => {
         <NavLink
           exact="true"
           activeclassname="active"
+          className="skills-link"
+          to="/skills"
+        >
+          <FontAwesomeIcon icon={faGear}/>
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
           className="projects-link"
           to="/projects"
         >
@@ -42,12 +50,20 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/tamaskovacs0408/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/tamaskovacs0408/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faLinkedinIn} color="#FFFFFF" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/tamaskovacs0408" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/tamaskovacs0408"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} color="#FFFFFF" />
             </a>
           </li>
