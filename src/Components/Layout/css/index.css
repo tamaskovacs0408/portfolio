@@ -1,49 +1,14 @@
-.home__container {
+.page__container {
   width: 100%;
   height: 100%;
-  margin: 80px;
+  padding: 0 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.home__container .welcome {
-  min-width: 450px;
-  margin-left: 20px;
-}
-.home__container .welcome h1 {
-  font-size: 7rem;
-  letter-spacing: 2px;
-  font-weight: 300;
-  line-height: 80px;
-}
-.home__container .welcome h1 #letter_T {
-  margin: 0;
-  padding: 0;
-  color: #B22824;
-  text-shadow: 1px 0.5px white;
-  font-size: 10rem;
-}
-.home__container .welcome #title {
-  display: block;
-  width: 100%;
-  text-align: left;
-  letter-spacing: 5px;
-  color: #9d9498;
-  text-shadow: 1px 1px black;
-  font-size: 2rem;
-}
-.home__container .logo_container {
-  width: 50%;
-  height: 50%;
-}
-.home__container .logo_container .logo_tk {
-  display: block;
-  height: 100%;
-  -webkit-transform: rotate(8deg);
-          transform: rotate(8deg);
 }

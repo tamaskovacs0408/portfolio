@@ -1,4 +1,46 @@
-.home-container {
+.home__container {
+  width: 100%;
+  min-width: 600px;
+  height: 100%;
+  margin: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  .welcome {
+    min-width: 450px;
+    margin-left: 20px;
+    h1 {
+      font-size: 7rem;
+      letter-spacing: 2px;
+      font-weight: 300;
+      line-height: 80px;
+  
+      #letter_T {
+        margin: 0;
+        padding: 0;
+        color: #B22824;
+        text-shadow: 1px 0.5px white;
+        font-size: 10rem;
+      }
+    }
+    #title {
+      display: block;
+      width: 100%;
+      text-align: left;
+      letter-spacing: 5px;
+      color: #9d9498;
+      text-shadow: 1px 1px black;
+      font-size: 2rem;
+    }
+  }
+  .logo_container {
+    width: 50%;
+    height: 50%;
+    .logo_tk {
+      display: block;
+      height: 100%;
+      transform: rotate(8deg);
+    }
+  }
+  
 }
