@@ -14,12 +14,13 @@
       letter-spacing: 2px;
       font-weight: 300;
       line-height: 80px;
+      text-shadow: 1px 1px #ffb100;
   
       #letter_T {
         margin: 0;
         padding: 0;
-        color: #B22824;
-        text-shadow: 1px 0.5px white;
+        color: #00ABC9;
+        text-shadow: 1px 0.5px #ffb100;
         font-size: 10rem;
       }
     }
@@ -28,8 +29,8 @@
       width: 100%;
       text-align: left;
       letter-spacing: 5px;
-      color: #9d9498;
-      text-shadow: 1px 1px black;
+      color: #ffb100;
+      text-shadow: 1px 1px #00ABC9;
       font-size: 2rem;
     }
   }

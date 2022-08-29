@@ -44,7 +44,7 @@
         transition: all 0.3s ease-out;
       }
       &:hover {
-        color: #fb3d36;
+        color: #ffb100;
         text-shadow: 1px white;
 
         svg {
@@ -92,7 +92,7 @@
     }
     a.active {
       svg {
-        color: #fb3d36;
+        color: #ffb100;
       }
     }
   }
@@ -121,7 +121,7 @@
           text-align: center;
 
           &:hover svg {
-            color: #fb3d36;
+            color: #ffb100;
           }
         }
       }

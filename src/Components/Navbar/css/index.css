@@ -58,7 +58,7 @@
   transition: all 0.3s ease-out;
 }
 .navbar__container nav a:hover {
-  color: #fb3d36;
+  color: #ffb100;
   text-shadow: 1px white;
 }
 .navbar__container nav a:hover svg {
@@ -94,7 +94,7 @@
   content: "PROJECTS";
 }
 .navbar__container nav a.active svg {
-  color: #fb3d36;
+  color: #ffb100;
 }
 .navbar__container .contact__container {
   width: 100%;
@@ -132,5 +132,5 @@
   text-align: center;
 }
 .navbar__container .contact__container ul li a:hover svg {
-  color: #fb3d36;
+  color: #ffb100;
 }
