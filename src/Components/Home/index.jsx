@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="home__container">
         <div className="welcome">
-          <h1>
+          <h1 className="text-animate">
             Welcome,
             <br />
             my name is <br />

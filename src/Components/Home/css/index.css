@@ -22,6 +22,12 @@
   font-weight: 300;
   line-height: 80px;
   text-shadow: 1px 1px #ffb100;
+  -webkit-animation: lightSpeedInRight 2s 2s;
+          animation: lightSpeedInRight 2s 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1000;
+          animation-delay: 1000;
 }
 .home__container .welcome h1 #letter_T {
   margin: 0;
@@ -29,6 +35,12 @@
   color: #00ABC9;
   text-shadow: 1px 0.5px #ffb100;
   font-size: 10rem;
+  -webkit-animation: rotateInDownLeft 4s 4s;
+          animation: rotateInDownLeft 4s 4s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: 2000;
+          animation-delay: 2000;
 }
 .home__container .welcome #title {
   display: block;
