@@ -1,13 +1,15 @@
 .home__container {
+  position: absolute;
+  left: 10%;
   width: 100%;
   min-width: 600px;
   height: 100%;
-  margin: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -15,6 +17,7 @@
 .home__container .welcome {
   min-width: 450px;
   margin-left: 20px;
+  z-index: 1;
 }
 .home__container .welcome h1 {
   font-size: 7rem;
@@ -58,12 +61,15 @@
           animation-delay: initial;
 }
 .home__container .logo_container {
-  width: 50%;
-  height: 50%;
+  position: absolute;
+  right: 35%;
+  width: 400px;
+  height: 600px;
   -webkit-animation: rotateInDownRight 3s 1s;
           animation: rotateInDownRight 3s 1s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
+  z-index: 0;
 }
 .home__container .logo_container .logo_tk {
   display: block;

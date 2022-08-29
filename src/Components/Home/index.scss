@@ -1,14 +1,16 @@
 .home__container {
+  position: absolute;
+  left: 10%;
   width: 100%;
   min-width: 600px;
   height: 100%;
-  margin: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   .welcome {
     min-width: 450px;
     margin-left: 20px;
+    z-index: 1;
     h1 {
       font-size: 7rem;
       letter-spacing: 2px;
@@ -47,10 +49,13 @@
     }
   }
   .logo_container {
-    width: 50%;
-    height: 50%;
+    position: absolute;
+    right: 35%;
+    width: 400px;
+    height: 600px;
     animation: rotateInDownRight 3s 1s;
     animation-fill-mode: backwards;
+    z-index: 0;
     .logo_tk {
       display: block;
       height: 100%;
