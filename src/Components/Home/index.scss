@@ -15,9 +15,11 @@
       font-weight: 300;
       line-height: 80px;
       text-shadow: 1px 1px #ffb100;
-      animation: lightSpeedInRight 2s 2s;
+      animation: lightSpeedInRight 1.5s 1.5s;
       animation-fill-mode: forwards;
-      animation-delay: 1000;
+      animation-delay: inherit;
+      
+      
   
       #letter_T {
         margin: 0;
@@ -25,7 +27,7 @@
         color: #00ABC9;
         text-shadow: 1px 0.5px #ffb100;
         font-size: 10rem;
-        animation: rotateInDownLeft 4s 4s;
+        animation: rotateInDownLeft 2.5s 2.5s;
         animation-fill-mode: backwards;
         animation-delay: 2000;
       }
@@ -39,11 +41,16 @@
       color: #ffb100;
       text-shadow: 1px 1px #00ABC9;
       font-size: 2rem;
+      animation: slideInUp 3s 3s;
+      animation-fill-mode: backwards;
+      animation-delay: initial;
     }
   }
   .logo_container {
     width: 50%;
     height: 50%;
+    animation: rotateInDownRight 3s 1s;
+    animation-fill-mode: backwards;
     .logo_tk {
       display: block;
       height: 100%;
