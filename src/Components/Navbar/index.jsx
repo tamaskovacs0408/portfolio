@@ -3,16 +3,24 @@ import "./index.scss";
 import LogoTK from "../../Assets/Images/tk_pic.png";
 import LogoTKsub from "../../Assets/Images/tamkov.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEye, faAt, faGear } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faUser,
+  faEye,
+  faAt,
+  faGear,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   return (
     <div className="navbar__container">
-      <Link className="logo" to="/">
-        <img src={LogoTK} alt="tk logo" />
-        <img id="logo_sub" src={LogoTKsub} alt="tamas kovacs" />
-      </Link>
+      <div className="logo__container">
+        <Link className="logo" to="/">
+          <img src={LogoTK} alt="tk logo" />
+          <img id="logo_sub" src={LogoTKsub} alt="tamas kovacs" />
+        </Link>
+      </div>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} />
@@ -31,7 +39,7 @@ const Navbar = () => {
           className="skills-link"
           to="/skills"
         >
-          <FontAwesomeIcon icon={faGear}/>
+          <FontAwesomeIcon icon={faGear} />
         </NavLink>
         <NavLink
           exact="true"

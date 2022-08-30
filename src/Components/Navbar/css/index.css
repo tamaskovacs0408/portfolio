@@ -19,16 +19,16 @@
           justify-content: space-between;
   z-index: 2;
 }
-.navbar__container .logo {
+.navbar__container .logo__container .logo {
   display: block;
   padding: 10px 0;
 }
-.navbar__container .logo img {
+.navbar__container .logo__container .logo img {
   display: block;
   margin: 10px auto;
   width: 65px;
 }
-.navbar__container .logo #logo_sub {
+.navbar__container .logo__container .logo #logo_sub {
   width: 100px;
 }
 .navbar__container nav {
@@ -134,4 +134,53 @@
 }
 .navbar__container .contact__container ul li a:hover svg {
   color: #ffb100;
+}
+
+@media screen and (max-width: 786px) {
+  .navbar__container {
+    width: 100%;
+    height: 80px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .navbar__container .logo__container .logo {
+    display: block;
+    margin: 0 15px;
+  }
+  .navbar__container .logo__container .logo #logo_sub {
+    display: none;
+  }
+  .navbar__container nav {
+    width: 100%;
+    margin: 0 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar__container .contact__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+  }
+  .navbar__container .contact__container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar__container .contact__container ul li {
+    margin: 0 20px;
+  }
 }
