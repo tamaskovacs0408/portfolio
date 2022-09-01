@@ -14,12 +14,12 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.home__container .welcome {
+.home__container .welcome_container {
   min-width: 450px;
   margin-left: 20px;
   z-index: 1;
 }
-.home__container .welcome h1 {
+.home__container .welcome_container h1 {
   font-size: 7rem;
   letter-spacing: 2px;
   font-weight: 300;
@@ -32,7 +32,7 @@
   -webkit-animation-delay: inherit;
           animation-delay: inherit;
 }
-.home__container .welcome h1 #letter_T {
+.home__container .welcome_container h1 #letter_T {
   margin: 0;
   padding: 0;
   color: #00ABC9;
@@ -45,7 +45,7 @@
   -webkit-animation-delay: 2000;
           animation-delay: 2000;
 }
-.home__container .welcome #title {
+.home__container .welcome_container #title {
   display: block;
   width: 100%;
   text-align: left;
@@ -76,4 +76,22 @@
   height: 100%;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
+}
+
+@media screen and (max-width: 768px) {
+  .welcome_container {
+    position: initial;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .logo_container {
+    position: relative;
+    top: 50px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
 }

@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .welcome {
+  .welcome_container {
     min-width: 450px;
     margin-left: 20px;
     z-index: 1;
@@ -63,4 +63,21 @@
     }
   }
   
+}
+
+@media screen and (max-width: 768px){
+  .welcome_container {
+    position: initial;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .logo_container {
+    position: relative;
+    top: 50px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
 }
