@@ -4,7 +4,9 @@ import './index.scss';
 const Skills = () => {
   return (
     <>
-      <div></div>
+      <div className='skills__container'>
+        
+      </div>
       <Loader type="ball-scale-ripple-multiple"/>
     </>
   )

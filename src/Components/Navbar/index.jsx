@@ -36,14 +36,6 @@ const Navbar = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="skills-link"
-          to="/skills"
-        >
-          <FontAwesomeIcon icon={faGear} />
-        </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
           className="projects-link"
           to="/projects"
         >
