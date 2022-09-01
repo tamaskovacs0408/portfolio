@@ -1,0 +1,22 @@
+.projects__container {
+  position: absolute;
+  left: 10%;
+  width: 100%;
+  min-width: 600px;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 7rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 80px;
+    text-shadow: 3px 2px #ffb100;
+    animation: lightSpeedInRight 1.5s 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: inherit;
+  }
+}

@@ -1,0 +1,30 @@
+.projects__container {
+  position: absolute;
+  left: 10%;
+  width: 100%;
+  min-width: 600px;
+  height: 100%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projects__container h1 {
+  font-size: 7rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 80px;
+  text-shadow: 3px 2px #ffb100;
+  -webkit-animation: lightSpeedInRight 1.5s 1.5s;
+          animation: lightSpeedInRight 1.5s 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: inherit;
+          animation-delay: inherit;
+}
