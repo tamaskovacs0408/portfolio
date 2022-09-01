@@ -23,9 +23,9 @@ const About = () => {
             launch a career building web applications and services.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            suscipit unde debitis repudiandae dolorum possimus! Labore voluptate
-            consequatur nostrum iure doloremque.
+            Although I'm a beginner, I have experience with the following
+            programming languages and frameworks: HTML5, CSS3, Sass, JavaScript
+            and React.
           </p>
           <p>
             For mor information visit my{" "}
@@ -39,29 +39,36 @@ const About = () => {
             </a>{" "}
             profile and you can download my CV on this{" "}
             <a className="about_link" href={CV} download>
-              link.
+              link
             </a>
+            , or you can check out my projects on my{" "}
+            <a
+              className="about_link"
+              href="https://github.com/tamaskovacs0408"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>{" "}
+            profile.
           </p>
         </div>
         <div className="cube_container">
           <div className="cube">
             <div className="face1">
-              <FontAwesomeIcon icon={faReact} color="#61DAFB" />
+              <FontAwesomeIcon icon={faReact} />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#DD4B25" />
+              <FontAwesomeIcon icon={faHtml5} />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#196DB1" />
+              <FontAwesomeIcon icon={faCss3} />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faJs} color="#EAD41C" />
+              <FontAwesomeIcon icon={faJs} />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faSass} color="#C36291" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faNodeJs} color="#4F9640" />
+              <FontAwesomeIcon icon={faSass} />
             </div>
           </div>
         </div>
