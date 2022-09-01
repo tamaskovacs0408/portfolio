@@ -54,21 +54,23 @@ const About = () => {
           </p>
         </div>
         <div className="cube_container">
-          <div className="cube">
-            <div className="face1">
-              <FontAwesomeIcon icon={faReact} />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faJs} />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faSass} />
+          <div className="cube_inner">
+            <div className="cube">
+              <div className="face1">
+                <FontAwesomeIcon icon={faReact} />
+              </div>
+              <div className="face2">
+                <FontAwesomeIcon icon={faHtml5} />
+              </div>
+              <div className="face3">
+                <FontAwesomeIcon icon={faCss3} />
+              </div>
+              <div className="face4">
+                <FontAwesomeIcon icon={faJs} />
+              </div>
+              <div className="face5">
+                <FontAwesomeIcon icon={faSass} />
+              </div>
             </div>
           </div>
         </div>
