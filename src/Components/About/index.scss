@@ -28,6 +28,9 @@
     }
     p {
       font-size: 1.8rem;
+      animation: backInUp 2s 2s;
+      animation-fill-mode: backwards;
+      animation-delay: initial;
     }
   }
   .image_container {
@@ -40,6 +43,9 @@
     img {
       display: block;
       width: 100%;
+      animation: backInUp 2s 2s;
+      animation-fill-mode: backwards;
+      animation-delay: initial;
     }
   }
 }

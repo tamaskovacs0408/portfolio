@@ -46,6 +46,12 @@
 }
 .about-container .text_container p {
   font-size: 1.8rem;
+  -webkit-animation: backInUp 2s 2s;
+          animation: backInUp 2s 2s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
 }
 .about-container .image_container {
   display: -webkit-box;
@@ -67,4 +73,10 @@
 .about-container .image_container img {
   display: block;
   width: 100%;
+  -webkit-animation: backInUp 2s 2s;
+          animation: backInUp 2s 2s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
 }
