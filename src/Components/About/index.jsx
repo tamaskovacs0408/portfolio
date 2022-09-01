@@ -2,6 +2,15 @@ import Loader from "react-loaders";
 import "./index.scss";
 import ProfileImg from "../../Assets/Images/bg_photo.png";
 import CV from "../../Assets/CV/tamas_kovacs_cv_en.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCss3,
+  faHtml5,
+  faJs,
+  faNodeJs,
+  faReact,
+  faSass,
+} from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
   return (
@@ -34,8 +43,27 @@ const About = () => {
             </a>
           </p>
         </div>
-        <div className="image_container">
-          <img src={ProfileImg} alt="me" />
+        <div className="cube_container">
+          <div className="cube">
+            <div className="face1">
+              <FontAwesomeIcon icon={faReact} color="#61DAFB" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#DD4B25" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#196DB1" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faJs} color="#EAD41C" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faSass} color="#C36291" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faNodeJs} color="#4F9640" />
+            </div>
+          </div>
         </div>
       </div>
       <Loader type="ball-scale-ripple-multiple" />

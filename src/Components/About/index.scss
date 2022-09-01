@@ -12,7 +12,7 @@
   .text_container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items:flex-start;
     width: 500px;
 
@@ -42,19 +42,13 @@
       }
     }
   }
-  .image_container {
+  .cube_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
     width: 50%;
     height: 100%;
-    img {
-      display: block;
-      width: 100%;
-      animation: backInUp 2s 2s;
-      animation-fill-mode: backwards;
-      animation-delay: initial;
-    }
+    
   }
 }

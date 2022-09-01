@@ -23,9 +23,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -62,7 +62,7 @@
 .about-container .text_container p .about_link:hover {
   color: #ffd269;
 }
-.about-container .image_container {
+.about-container .cube_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,14 +78,4 @@
           align-items: center;
   width: 50%;
   height: 100%;
-}
-.about-container .image_container img {
-  display: block;
-  width: 100%;
-  -webkit-animation: backInUp 2s 2s;
-          animation: backInUp 2s 2s;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-  -webkit-animation-delay: initial;
-          animation-delay: initial;
 }
