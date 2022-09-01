@@ -8,7 +8,6 @@ import {
   faUser,
   faEye,
   faAt,
-  faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 

@@ -31,6 +31,15 @@
       animation: backInUp 2s 2s;
       animation-fill-mode: backwards;
       animation-delay: initial;
+
+      .about_link {
+        text-decoration: none;
+        color: #ffb100;
+        transition: color ease-in 0.3s;
+      }
+      .about_link:hover {
+        color: #ffd269;
+      }
     }
   }
   .image_container {

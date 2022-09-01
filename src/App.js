@@ -4,7 +4,6 @@ import About from './Components/About/index';
 import Layout from './Components/Layout/index';
 import Projects from './Components/Projects/index';
 import Home from './Components/Home/index';
-import Skills from './Components/Skills/index';
 
 function App() {
   return (

@@ -53,6 +53,15 @@
   -webkit-animation-delay: initial;
           animation-delay: initial;
 }
+.about-container .text_container p .about_link {
+  text-decoration: none;
+  color: #ffb100;
+  -webkit-transition: color ease-in 0.3s;
+  transition: color ease-in 0.3s;
+}
+.about-container .text_container p .about_link:hover {
+  color: #ffd269;
+}
 .about-container .image_container {
   display: -webkit-box;
   display: -ms-flexbox;
