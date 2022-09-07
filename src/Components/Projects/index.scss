@@ -6,10 +6,12 @@
   height: 100%;
   margin: 20px auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   h1 {
+    align-self: flex-start;
     font-size: 7rem;
     letter-spacing: 2px;
     font-weight: 300;
@@ -18,5 +20,19 @@
     animation: lightSpeedInRight 1.5s 1.5s;
     animation-fill-mode: forwards;
     animation-delay: inherit;
+  }
+  .inner_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .projects {
+      width: 25%;
+      margin: 15px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }
