@@ -20,28 +20,26 @@
       animation: lightSpeedInRight 1.5s 1.5s;
       animation-fill-mode: forwards;
       animation-delay: inherit;
-      
-      
-  
+
       #letter_T {
         margin: 0;
         padding: 0;
-        color: #00ABC9;
+        color: #00abc9;
         text-shadow: 3px 1px #ffb100;
         font-size: 10rem;
-        animation: rotateInDownLeft 2.5s 2.5s;
+        animation: rotateInDownLeft 1.5s 1s;
         animation-fill-mode: backwards;
-        animation-delay: 2000;
+        animation-delay: 1500;
       }
     }
-    
+
     #title {
       display: block;
       width: 100%;
       text-align: left;
       letter-spacing: 5px;
       color: #ffb100;
-      text-shadow: 1px 1px #00ABC9;
+      text-shadow: 1px 1px #00abc9;
       font-size: 2rem;
       animation: slideInUp 3s 3s;
       animation-fill-mode: backwards;
@@ -56,26 +54,15 @@
     animation: backInDown 3s 1s;
     animation-fill-mode: backwards;
     z-index: 0;
-    /*.logo_tk {
+    .logo_tk {
       display: block;
       height: 100%;
       transform: rotate(8deg);
-    }*/
-    .photo_text {
-      padding: 0 auto;
-      width: 100%;
-      height: 100%;
-      background-image: url('../../Assets/Images/bg_photo.png');
-      background-size: cover;
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent;
     }
   }
-  
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .welcome_container {
     position: initial;
     width: 100%;
