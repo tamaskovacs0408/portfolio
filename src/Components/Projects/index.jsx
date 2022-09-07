@@ -17,8 +17,8 @@ const Projects = () => {
             <div className="image_container">
               <img src={Project1Img} alt="Shoplist project screenshot" />
             </div>
-            <h2>Project name</h2>
-            <p>Project description</p>
+            <h2>Shopping list</h2>
+            <p>Responsive shop list application made with React.</p>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/shopping-list" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
