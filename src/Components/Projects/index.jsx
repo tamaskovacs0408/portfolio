@@ -1,4 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
 import Loader from "react-loaders";
+import Project1Img from '../../Assets/Images/shoplist_img.png';
+import Project2Img from '../../Assets/Images/color_project.jpeg';
+import Project3Img from '../../Assets/Images/crypto_project.png';
+import Project4Img from '../../Assets/Images/recipe_project.png';
 import "./index.scss";
 
 const Projects = () => {
@@ -9,72 +15,63 @@ const Projects = () => {
         <article className="inner_container">
           <div className="projects project_1">
             <div className="image_container">
-              <img src="" alt="" />
+              <img src={Project1Img} alt="Shoplist project screenshot" />
             </div>
             <h2>Project name</h2>
             <p>Project description</p>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Code
+            <div className="link_container">
+              <a className="link_icon" href="https://github.com/tamaskovacs0408/shopping-list" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faCode} />
               </a>
-            </button>
-            <button>
-              {" "}
-              <a href="#" rel="noreferrer" target="_blank">
-                Decmo
+              <a className="link_icon" href="https://tamaskovacs0408.github.io/shopping-list/" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
-            </button>
+            </div>
           </div>
           <div className="projects project_2">
             <div className="image_container">
-              <img src="" alt="" />
+              <img src={Project2Img} alt="Color project screenshot" />
             </div>
             <h2>Project name</h2>
-            <p>Project description</p>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Code
+            <p></p>
+            <div className="link_container">
+              <a className="link_icon" href="https://github.com/tamaskovacs0408/color-generator" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faCode} />
               </a>
-            </button>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Demo
+              <a className="link_icon" href="https://tamaskovacs0408.github.io/color-generator/" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
-            </button>
+            </div>
           </div>
           <div className="projects project_3">
             <div className="image_container">
-              <img src="" alt="" />
+              <img src={Project3Img} alt="Crypto project creenshot" />
             </div>
             <h2>Project name</h2>
             <p>Project description</p>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Code
+            <div className="link_container">
+              <a className="link_icon" href="https://github.com/tamaskovacs0408/crypto_fav" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faCode} />
               </a>
-            </button>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Demo
+              <a className="link_icon" href="https://tamaskovacs0408.github.io/crypto_fav/" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
-            </button>
+            </div>
           </div>
           <div className="projects project_4">
             <div className="image_container">
-              <img src="" alt="" />
+              <img src={Project4Img} alt="Recipe project screenshot" />
             </div>
             <h2>Project name</h2>
             <p>Project description</p>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Code
+            <div className="link_container">
+              <a className="link_icon" href="https://github.com/tamaskovacs0408/recipes_project" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faCode} />
               </a>
-            </button>
-            <button>
-              <a href="#" rel="noreferrer" target="_blank">
-                Demo
+              <a className="link_icon" href="https://tamaskovacs0408.github.io/recipes_project/" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
-            </button>
+            </div>
           </div>
         </article>
       </section>
