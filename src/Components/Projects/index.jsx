@@ -6,7 +6,9 @@ const Projects = () => {
     <>
       <div className='projects__container'>
           <h1>MY PROJECTS</h1>
-          <div className='projects'></div>
+          <div className='projects'>
+            
+          </div>
       </div>
       <Loader type="ball-scale-ripple-multiple"/>
     </>
