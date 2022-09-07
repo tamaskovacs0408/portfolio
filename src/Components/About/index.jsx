@@ -1,16 +1,7 @@
 import Loader from "react-loaders";
 import "./index.scss";
-import ProfileImg from "../../Assets/Images/bg_photo.png";
 import CV from "../../Assets/CV/tamas_kovacs_cv_en.pdf";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCss3,
-  faHtml5,
-  faJs,
-  faNodeJs,
-  faReact,
-  faSass,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 const About = () => {
   return (
