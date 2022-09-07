@@ -18,7 +18,7 @@ const Projects = () => {
               <img src={Project1Img} alt="Shoplist project screenshot" />
             </div>
             <h2>Shopping list</h2>
-            <p>Responsive shop list application made with React.</p>
+            <p>With this responsive React app you can add, update and delete elements to/from your shopping list.</p>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/shopping-list" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
@@ -32,8 +32,8 @@ const Projects = () => {
             <div className="image_container">
               <img src={Project2Img} alt="Color project screenshot" />
             </div>
-            <h2>Project name</h2>
-            <p></p>
+            <h2>Tint and shade generator</h2>
+            <p>With this React app you can generate the color scale of your  HEX color. It generates 10 'light' shades, and 10 'dark' shades.</p>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/color-generator" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
@@ -47,8 +47,8 @@ const Projects = () => {
             <div className="image_container">
               <img src={Project3Img} alt="Crypto project creenshot" />
             </div>
-            <h2>Project name</h2>
-            <p>Project description</p>
+            <h2>Get current price</h2>
+            <p>With this simple, responsive React app you can get the current price of the given cryptocurrencies with the Binance API.</p>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/crypto_fav" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
@@ -62,8 +62,8 @@ const Projects = () => {
             <div className="image_container">
               <img src={Project4Img} alt="Recipe project screenshot" />
             </div>
-            <h2>Project name</h2>
-            <p>Project description</p>
+            <h2>Recipe finder</h2>
+            <p>With this responsive site you can find multiple recipes from around the world. The site is using TheMealDB API.</p>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/recipes_project" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />

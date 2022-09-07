@@ -65,10 +65,12 @@
   right: 25%;
   width: 400px;
   height: auto;
-  -webkit-animation: backInDown 3s 1s;
-          animation: backInDown 3s 1s;
+  -webkit-animation: backInUp 2s 2s;
+          animation: backInUp 2s 2s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
   z-index: 0;
 }
 .home__container .logo_container .logo_tk {
