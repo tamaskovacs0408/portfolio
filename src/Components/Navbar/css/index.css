@@ -18,7 +18,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 2;
+  z-index: 3;
 }
 .navbar__container .logo__container .logo {
   display: block;
@@ -136,7 +136,7 @@
 
 @media screen and (max-width: 768px) {
   .navbar__container {
-    position: initial;
+    position: fixed;
     width: 100%;
     height: auto;
     min-height: auto;
@@ -150,13 +150,21 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    z-index: 4;
+  }
+  .navbar__container .logo__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .navbar__container .logo__container .logo {
-    display: block;
+    display: inline-block;
     margin: 0 15px;
     padding: 0;
   }
-  .navbar__container .logo__container .logo #logo_sub {
+  .navbar__container .logo__container #logo_sub {
     display: none;
   }
   .navbar__container nav {
