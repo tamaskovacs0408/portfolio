@@ -62,3 +62,12 @@
 .about-container .text_container p .about_link:hover {
   color: #ffd269;
 }
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}

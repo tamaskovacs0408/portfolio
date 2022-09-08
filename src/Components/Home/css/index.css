@@ -81,13 +81,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .welcome_container {
+  .home__container {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .home__container .welcome_container {
     position: initial;
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .logo_container {
+  .home__container .logo_container {
     position: relative;
     top: 50px;
     right: 0;
