@@ -6,8 +6,8 @@ import CV from "../../Assets/CV/tamas_kovacs_cv_en.pdf";
 const About = () => {
   return (
     <>
-      <div className="about-container">
-        <div className="text_container">
+      <section className="about-container">
+        <article className="text_container">
           <h1>ABOUT ME</h1>
           <p>
             I am a self-taught and highly motivated web developer who seeking to
@@ -43,8 +43,8 @@ const About = () => {
             </a>{" "}
             profile.
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
       <Loader type="ball-scale-ripple-multiple" />
     </>
   );

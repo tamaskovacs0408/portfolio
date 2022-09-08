@@ -5,8 +5,8 @@ import Loader from "react-loaders";
 const Home = () => {
   return (
     <>
-      <div className="home__container">
-        <div className="welcome_container">
+      <section className="home__container">
+        <article className="welcome_container">
           <h1 className="text-animate">
             Welcome,
             <br />
@@ -14,11 +14,11 @@ const Home = () => {
             <span id="letter_T">T</span>amas!
           </h1>
           <span id="title">FRONTEND DEVELOPER</span>
-        </div>
-        <div className="logo_container">
+        </article>
+        <article className="logo_container">
           <img className="logo_tk" src={LogoTK} alt="logo" />
-        </div>
-      </div>
+        </article>
+      </section>
       <Loader type="ball-scale-ripple-multiple"/>
     </>
   );

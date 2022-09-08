@@ -13,13 +13,13 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   return (
-    <div className="navbar__container">
-      <div className="logo__container">
+    <section className="navbar__container">
+      <article className="logo__container">
         <Link className="logo" to="/">
           <img src={LogoTK} alt="tk logo" />
           <img id="logo_sub" src={LogoTKsub} alt="tamas kovacs" />
         </Link>
-      </div>
+      </article>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} />
@@ -41,7 +41,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faEye} />
         </NavLink>
       </nav>
-      <div className="contact__container">
+      <article className="contact__container">
         <ul>
           <li>
             <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
@@ -67,8 +67,8 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 };
 
