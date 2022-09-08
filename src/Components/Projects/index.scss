@@ -114,6 +114,11 @@
     height: 90%;
     overflow: auto;
 
+    h1 {
+      font-size: 5rem;
+      line-height: 60px;
+    }
+
     .inner_container {
       flex-wrap: wrap;
       height: 55%;

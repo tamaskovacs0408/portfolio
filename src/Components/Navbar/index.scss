@@ -59,7 +59,7 @@
         }
       }
       &::after {
-        content: '';
+        content: "";
         font-size: 1rem;
         letter-spacing: 2px;
         text-align: center;
@@ -74,18 +74,18 @@
 
       &:first-child {
         &::after {
-          content: 'HOME';
+          content: "HOME";
         }
       }
     }
     a.about-link {
       &::after {
-        content: 'ABOUT';
+        content: "ABOUT";
       }
     }
     a.projects-link {
       &::after {
-        content: 'PROJECTS';
+        content: "PROJECTS";
       }
     }
     a.active {
@@ -137,17 +137,22 @@
     flex-direction: row;
     justify-content: space-between;
     z-index: 4;
-    
+
     .logo__container {
-      display: flex;
-      justify-content: space-around;
       .logo {
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         margin: 0 15px;
         padding: 0;
+
+        img {
+          width: 50px;
+        }
       }
       #logo_sub {
-        display: none;
+        display: inline-block;
+        width: 60px;
       }
     }
     nav {
@@ -164,7 +169,7 @@
       flex-direction: row;
       justify-content: center;
       width: 100%;
-      ul{
+      ul {
         display: flex;
         li {
           margin: 0 20px;

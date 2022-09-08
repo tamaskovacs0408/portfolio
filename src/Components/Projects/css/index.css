@@ -143,6 +143,10 @@
     height: 90%;
     overflow: auto;
   }
+  .projects__container h1 {
+    font-size: 5rem;
+    line-height: 60px;
+  }
   .projects__container .inner_container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
