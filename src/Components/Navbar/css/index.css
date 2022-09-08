@@ -134,7 +134,7 @@
   color: #ffb100;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
   .navbar__container {
     position: initial;
     width: 100%;

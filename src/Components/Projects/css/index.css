@@ -119,3 +119,16 @@
 .projects__container .inner_container .projects .link_container .link_icon:hover {
   color: #ffd269;
 }
+
+@media screen and (max-width: 992px) {
+  .projects__container h1 {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .projects__container .inner_container .projects {
+    width: 20%;
+  }
+  .projects__container .inner_container .projects .image_container img {
+    width: 100%;
+  }
+}
