@@ -139,10 +139,11 @@
     z-index: 4;
 
     .logo__container {
+      width: 33%;
       .logo {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-start;
         margin: 0 15px;
         padding: 0;
 
@@ -156,31 +157,34 @@
       }
     }
     nav {
-      width: 100%;
+      width: 33%;
       margin: 0 30px;
       flex-direction: row;
       justify-content: center;
 
       a {
-        width: 60%;
+        font-size: 2rem;
       }
     }
     .contact__container {
       flex-direction: row;
       justify-content: center;
-      width: 100%;
+      width: 33%;
       ul {
         display: flex;
         li {
           margin: 0 20px;
+          a {
+            font-size: 2rem;
+          }
         }
       }
     }
   }
 }
 
-// @media screen and (max-width: 576px) {
-//   .navbar__container {
-//     width: 100%;
-//   }
-// }
+@media screen and (max-width: 576px) {
+  .navbar__container {
+    width: 100%;
+  }
+}
