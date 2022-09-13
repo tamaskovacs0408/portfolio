@@ -25,7 +25,7 @@ const Navbar = () => {
           <img id="logo_sub" src={LogoTKsub} alt="tamas kovacs" />
         </Link>
       </article>
-      <nav>
+      <nav className={showNavbar ? 'navbar-visible' : ''}>
         <article className="link_container">
           <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} />
