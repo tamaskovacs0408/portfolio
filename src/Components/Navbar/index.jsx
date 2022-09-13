@@ -10,7 +10,7 @@ import {
   faEye,
   faAt,
   faBars,
-  faArrowRight,
+  faArrowUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
@@ -77,7 +77,7 @@ const Navbar = () => {
       </nav>
 
       <div className="hamburger_menu_icon">
-        <FontAwesomeIcon onClick={setshowNavbar} icon={faBars} />
+        <FontAwesomeIcon onClick={() =>setshowNavbar(true)} icon={faBars} />
       </div>
     </section>
   );

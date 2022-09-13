@@ -249,8 +249,35 @@
   .navbar__container nav {
     display: none;
   }
-  .navbar__container .contact__container {
-    display: none;
+  .navbar__container nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #181818;
+    height: 100%;
+    margin: 0;
+    z-index: 2;
+    position: fixed;
+  }
+  .navbar__container nav.navbar-visible {
+    display: block;
+  }
+  .navbar__container nav a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar__container nav a:after {
+    opacity: 1;
+    position: initial;
+    width: auto;
+    margin-left: 10PX;
   }
   .navbar__container .hamburger_menu_icon {
     display: block;
@@ -262,44 +289,5 @@
   }
   .navbar__container .hamburger_menu_icon:hover {
     color: #ffb100;
-  }
-  .navbar__container .mobile_navbar {
-    width: 100%;
-    height: auto;
-  }
-  .navbar__container .mobile_navbar nav {
-    width: 33%;
-    margin: 0 30px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .navbar__container .mobile_navbar nav a {
-    font-size: 2rem;
-  }
-  .navbar__container .mobile_navbar .contact__container {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 33%;
-  }
-  .navbar__container .mobile_navbar .contact__container ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navbar__container .mobile_navbar .contact__container ul li {
-    margin: 0 20px;
-  }
-  .navbar__container .mobile_navbar .contact__container ul li a {
-    font-size: 2rem;
   }
 }
