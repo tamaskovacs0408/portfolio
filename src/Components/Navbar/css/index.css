@@ -34,6 +34,20 @@
 }
 .navbar__container nav {
   width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+.navbar__container nav .link_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,9 +58,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  text-align: center;
 }
-.navbar__container nav a {
+.navbar__container nav .link_container a {
   font-size: 2.5rem;
   color: white;
   margin: 10px auto;
@@ -55,21 +68,21 @@
   position: relative;
   width: 100%;
 }
-.navbar__container nav a i {
+.navbar__container nav .link_container a i {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.navbar__container nav a:hover {
+.navbar__container nav .link_container a:hover {
   color: #ffb100;
   text-shadow: 1px white;
 }
-.navbar__container nav a:hover svg {
+.navbar__container nav .link_container a:hover svg {
   opacity: 0;
 }
-.navbar__container nav a:hover::after {
+.navbar__container nav .link_container a:hover::after {
   opacity: 1;
 }
-.navbar__container nav a::after {
+.navbar__container nav .link_container a::after {
   content: "";
   font-size: 1rem;
   letter-spacing: 2px;
@@ -83,16 +96,16 @@
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.navbar__container nav a:first-child::after {
+.navbar__container nav .link_container a:first-child::after {
   content: "HOME";
 }
-.navbar__container nav a.about-link::after {
+.navbar__container nav .link_container a.about-link::after {
   content: "ABOUT";
 }
-.navbar__container nav a.projects-link::after {
+.navbar__container nav .link_container a.projects-link::after {
   content: "PROJECTS";
 }
-.navbar__container nav a.active svg {
+.navbar__container nav .link_container a.active svg {
   color: #ffb100;
 }
 .navbar__container .contact__container {

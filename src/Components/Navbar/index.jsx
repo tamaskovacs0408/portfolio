@@ -26,54 +26,56 @@ const Navbar = () => {
         </Link>
       </article>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} />
-        </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
-          className="about-link"
-          to="/about"
-        >
-          <FontAwesomeIcon icon={faUser} />
-        </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
-          className="projects-link"
-          to="/projects"
-        >
-          <FontAwesomeIcon icon={faEye} />
-        </NavLink>
+        <article className="link_container">
+          <NavLink exact="true" activeclassname="active" to="/">
+            <FontAwesomeIcon icon={faHome} />
+          </NavLink>
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="about-link"
+            to="/about"
+          >
+            <FontAwesomeIcon icon={faUser} />
+          </NavLink>
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="projects-link"
+            to="/projects"
+          >
+            <FontAwesomeIcon icon={faEye} />
+          </NavLink>
+        </article>
         <article className="contact__container">
-        <ul>
-          <li>
-            <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
-              <FontAwesomeIcon icon={faAt} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/tamaskovacs0408/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedinIn} color="#FFFFFF" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/tamaskovacs0408"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} color="#FFFFFF" />
-            </a>
-          </li>
-        </ul>
-      </article>
+          <ul>
+            <li>
+              <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
+                <FontAwesomeIcon icon={faAt} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tamaskovacs0408/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedinIn} color="#FFFFFF" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/tamaskovacs0408"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} color="#FFFFFF" />
+              </a>
+            </li>
+          </ul>
+        </article>
       </nav>
-      
+
       <div className="hamburger_menu_icon">
         <FontAwesomeIcon onClick={setshowNavbar} icon={faBars} />
       </div>
