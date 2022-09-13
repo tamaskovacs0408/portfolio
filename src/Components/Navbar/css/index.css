@@ -250,6 +250,19 @@
     display: none;
   }
   .navbar__container nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     top: 0;
     left: 0;
@@ -262,7 +275,22 @@
   .navbar__container nav.navbar-visible {
     display: block;
   }
-  .navbar__container nav a {
+  .navbar__container nav .link_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar__container nav .link_container a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -273,11 +301,23 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .navbar__container nav a:after {
+  .navbar__container nav .link_container a:after {
     opacity: 1;
     position: initial;
     width: auto;
-    margin-left: 10PX;
+    margin-left: 10px;
+  }
+  .navbar__container nav .link_container a svg {
+    opacity: 1 !important;
+  }
+  .navbar__container nav .contact__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .navbar__container .hamburger_menu_icon {
     display: block;
