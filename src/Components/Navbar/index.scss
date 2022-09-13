@@ -228,6 +228,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        animation: fadeInDown 1s;
+        animation-fill-mode: forwards;
 
         .arrow_up {
           display: block;
