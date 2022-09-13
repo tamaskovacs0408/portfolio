@@ -30,6 +30,7 @@
       -ms-flex-align: start;
           align-items: flex-start;
   width: 500px;
+  margin-left: 20px;
 }
 .about-container .text_container h1 {
   font-size: 7rem;
@@ -37,6 +38,7 @@
   font-weight: 300;
   line-height: 80px;
   text-shadow: 3px 2px #ffb100;
+  text-align: center;
   -webkit-animation: lightSpeedInRight 1.5s 1.5s;
           animation: lightSpeedInRight 1.5s 1.5s;
   -webkit-animation-fill-mode: forwards;
@@ -82,6 +84,12 @@
 .about-container .image_container img {
   display: block;
   width: 100%;
+  -webkit-animation: backInUp 2s 2s;
+          animation: backInUp 2s 2s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
 }
 
 @media screen and (max-width: 768px) {

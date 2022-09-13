@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 500px;
+    margin-left: 20px;
 
     h1 {
       font-size: 7rem;
@@ -22,6 +23,7 @@
       font-weight: 300;
       line-height: 80px;
       text-shadow: 3px 2px #ffb100;
+      text-align: center;
       animation: lightSpeedInRight 1.5s 1.5s;
       animation-fill-mode: forwards;
       animation-delay: inherit;
@@ -53,6 +55,9 @@
     img {
       display: block;
       width: 100%;
+      animation: backInUp 2s 2s;
+      animation-fill-mode: backwards;
+      animation-delay: initial;
     }
   }
 }
