@@ -11,7 +11,7 @@ const Home = () => {
             Welcome,
             <br />
             my name is <br />
-            <span id="letter_T">T</span>amas!
+            <span id="monogram">T</span>amas <span id="monogram">K</span>ovacs!
           </h1>
           <span id="title">FRONTEND DEVELOPER</span>
         </article>
