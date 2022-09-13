@@ -4,12 +4,12 @@ import './index.scss';
 
 const Layout = () => {
   return (
-    <section className='App'>
+    <main className='App'>
       <Navbar />
       <div className="page__container">
         <Outlet />
       </div>
-    </section>
+    </main>
   )
 }
 
