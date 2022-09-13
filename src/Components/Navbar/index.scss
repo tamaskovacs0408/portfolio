@@ -248,7 +248,7 @@
           align-items: center;
           width: 100%;
           a {
-            display: inline-block;
+            display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -256,12 +256,13 @@
     
           a:after {
             opacity: 1;
-            position: initial;
             width: auto;
-            margin-left: 10px;
+            margin: auto;
+            letter-spacing: 1px;
+            font-size: 2rem;
           }
           a svg {
-            opacity: 1 !important;
+            opacity: 0;
           }
         }
         .contact__container {
