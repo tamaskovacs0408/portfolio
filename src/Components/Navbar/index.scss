@@ -178,9 +178,10 @@
       align-items: center;
 
       .link_container {
+        width: 100%;
         flex-direction: row;
-        justify-content: center;
-        width: 33%;
+        justify-content: space-between;
+        
         a {
           font-size: 2rem;
         }
@@ -188,8 +189,8 @@
     }
     .contact__container {
       flex-direction: row;
-      justify-content: center;
-      width: 33%;
+      justify-content: flex-end;
+      width: auto;
       ul {
         display: flex;
         li {
