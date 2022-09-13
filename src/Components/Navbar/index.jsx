@@ -17,10 +17,6 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 const Navbar = () => {
   const [showNavbar, setshowNavbar] = useState(false);
 
-  const handleClick = () => {
-    setshowNavbar(current => !current)
-  }
-
   return (
     <section className="navbar__container">
       <article className="logo__container">
@@ -49,8 +45,7 @@ const Navbar = () => {
         >
           <FontAwesomeIcon icon={faEye} />
         </NavLink>
-      </nav>
-      <article className="contact__container">
+        <article className="contact__container">
         <ul>
           <li>
             <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
@@ -77,61 +72,10 @@ const Navbar = () => {
           </li>
         </ul>
       </article>
+      </nav>
+      
       <div className="hamburger_menu_icon">
-        <FontAwesomeIcon onClick={handleClick} icon={faBars} />
-      </div>
-      <div className="mobile_navbar" style={{display: showNavbar ? 'block' : 'none'}}>
-        <nav>
-          <NavLink exact="true" activeclassname="active" to="/">
-            <FontAwesomeIcon icon={faHome} />
-          </NavLink>
-          <NavLink
-            exact="true"
-            activeclassname="active"
-            className="about-link"
-            to="/about"
-          >
-            <FontAwesomeIcon icon={faUser} />
-          </NavLink>
-          <NavLink
-            exact="true"
-            activeclassname="active"
-            className="projects-link"
-            to="/projects"
-          >
-            <FontAwesomeIcon icon={faEye} />
-          </NavLink>
-        </nav>
-        <article className="contact__container">
-          <ul>
-            <li>
-              <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
-                <FontAwesomeIcon icon={faAt} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/tamaskovacs0408/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faLinkedinIn} color="#FFFFFF" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/tamaskovacs0408"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faGithub} color="#FFFFFF" />
-              </a>
-            </li>
-          </ul>
-          <div className="hamburger_menu_icon">
-            <FontAwesomeIcon onClick={() => setshowNavbar(showNavbar === 'none')} icon={faArrowRight} />
-          </div>
-        </article>
+        <FontAwesomeIcon onClick={setshowNavbar} icon={faBars} />
       </div>
     </section>
   );
