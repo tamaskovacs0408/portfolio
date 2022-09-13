@@ -35,6 +35,10 @@
     justify-content: space-evenly;
     text-align: center;
 
+    .arrow_up {
+      display: none;
+    }
+
     .link_container {
       display: flex;
       flex-direction: column;
@@ -206,14 +210,10 @@
 
 @media screen and (max-width: 576px) {
   .navbar__container {
-    nav {
+    nav, ul {
       display: none;
     }
     nav {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
       width: 100%;
       top: 0;
       left: 0;
@@ -224,33 +224,52 @@
       position: fixed;
 
       &.navbar-visible {
-        display: block;
-      }
-      .link_container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        a {
+
+        .arrow_up {
+          display: block;
+          font-size: 2.5rem;
+          margin: 10px auto;
+          cursor: pointer;
+          transition: all 0.3s ease-out;
+        }
+
+        .arrow_up:hover {
+          color: #ffb100;
+        }
+
+        .link_container {
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
+          width: 100%;
+          a {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+    
+          a:after {
+            opacity: 1;
+            position: initial;
+            width: auto;
+            margin-left: 10px;
+          }
+          a svg {
+            opacity: 1 !important;
+          }
         }
-  
-        a:after {
-          opacity: 1;
-          position: initial;
-          width: auto;
-          margin-left: 10px;
-        }
-        a svg {
-          opacity: 1 !important;
+        .contact__container {
+          flex-direction: column;
+          align-items: center;
         }
       }
-      .contact__container {
-        flex-direction: column;
-        align-items: center;
-      }
+      
     }
 
     .hamburger_menu_icon {
@@ -261,7 +280,7 @@
       cursor: pointer;
     }
     .hamburger_menu_icon:hover {
-      color: #ffb100;;
+      color: #ffb100;
     }
   }
 }

@@ -26,6 +26,7 @@ const Navbar = () => {
         </Link>
       </article>
       <nav className={showNavbar ? 'navbar-visible' : ''}>
+        <FontAwesomeIcon onClick={() =>setshowNavbar(false)} className="arrow_up" icon={faArrowUp}/>
         <article className="link_container">
           <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} />

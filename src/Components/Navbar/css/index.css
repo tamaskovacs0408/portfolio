@@ -47,6 +47,9 @@
           justify-content: space-evenly;
   text-align: center;
 }
+.navbar__container nav .arrow_up {
+  display: none;
+}
 .navbar__container nav .link_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,10 +249,20 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .navbar__container nav {
+  .navbar__container nav, .navbar__container ul {
     display: none;
   }
   .navbar__container nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #181818;
+    height: 100%;
+    margin: 0;
+    z-index: 2;
+    position: fixed;
+  }
+  .navbar__container nav.navbar-visible {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -263,19 +276,19 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #181818;
-    height: 100%;
-    margin: 0;
-    z-index: 2;
-    position: fixed;
   }
-  .navbar__container nav.navbar-visible {
+  .navbar__container nav.navbar-visible .arrow_up {
     display: block;
+    font-size: 2.5rem;
+    margin: 10px auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
   }
-  .navbar__container nav .link_container {
+  .navbar__container nav.navbar-visible .arrow_up:hover {
+    color: #ffb100;
+  }
+  .navbar__container nav.navbar-visible .link_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -289,28 +302,28 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100%;
   }
-  .navbar__container nav .link_container a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .navbar__container nav.navbar-visible .link_container a {
+    display: inline-block;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
-  .navbar__container nav .link_container a:after {
+  .navbar__container nav.navbar-visible .link_container a:after {
     opacity: 1;
     position: initial;
     width: auto;
     margin-left: 10px;
   }
-  .navbar__container nav .link_container a svg {
+  .navbar__container nav.navbar-visible .link_container a svg {
     opacity: 1 !important;
   }
-  .navbar__container nav .contact__container {
+  .navbar__container nav.navbar-visible .contact__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
