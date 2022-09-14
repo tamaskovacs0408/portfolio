@@ -1,15 +1,17 @@
 .home__container {
   position: absolute;
-  left: 10%;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
   width: 100%;
   min-width: 600px;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   .welcome_container {
-    min-width: 450px;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: 10px;
     z-index: 1;
     h1 {
       font-size: 7rem;
@@ -48,16 +50,18 @@
   }
   .logo_container {
     position: absolute;
-    right: 25%;
-    width: 400px;
-    height: auto;
+    right: 5%;
+    width: 90%;
+    height: 100%;
     animation: backInUp 2s 2s;
     animation-fill-mode: backwards;
     animation-delay: initial;
     z-index: 0;
     .logo_tk {
       display: block;
-      height: 100%;
+      width: 100%;
+      height: auto;
+      opacity: 0.5;
       transform: rotate(8deg);
     }
   }
