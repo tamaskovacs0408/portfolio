@@ -49,8 +49,9 @@
     }
   }
   .logo_container {
-    position: sticky;
-    bottom: 1%;
+    position: absolute;
+    left: 30%;
+    top: 10%;
     width: 100%;
     height: 100%;
     animation: backInUp 2s 2s;
@@ -59,7 +60,7 @@
     z-index: 0;
     .logo_tk {
       display: block;
-      width: 80%;
+      width: 50%;
       height: auto;
       opacity: 0.5;
       transform: rotate(8deg);
