@@ -67,6 +67,29 @@
   }
 }
 
+@media screen and (max-width: 992px){
+  .home__container {
+    .welcome_container {
+
+      h1 {
+        font-size: 6rem;
+      }
+    }
+
+    .logo_container {
+      animation: none;
+      position: absolute;
+      bottom: none;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: auto;
+      opacity: 0.35;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .home__container {
     top: 50%;
@@ -83,17 +106,6 @@
       width: 80%;
       box-sizing: border-box;
       z-index: 1;
-    }
-    .logo_container {
-      position: absolute;
-      bottom: none;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      height: auto;
-      opacity: 0.35;
-      animation: none;
     }
   }
 }
