@@ -1,15 +1,18 @@
 .about-container {
   position: absolute;
-  left: 10%;
+  top: 50%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100%;
   min-width: 600px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -28,7 +31,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 500px;
+  width: 50%;
   margin-left: 20px;
 }
 .about-container .text_container h1 {
@@ -47,6 +50,7 @@
 }
 .about-container .text_container p {
   font-size: 1.8rem;
+  width: 80%;
   -webkit-animation: backInUp 2s 2s;
           animation: backInUp 2s 2s;
   -webkit-animation-fill-mode: backwards;
