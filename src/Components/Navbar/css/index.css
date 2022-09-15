@@ -76,7 +76,7 @@
   transition: all 0.3s ease-out;
 }
 .navbar__container nav .link_container a:hover {
-  color: #ffb100;
+  color: #F0F465;
   text-shadow: 1px white;
 }
 .navbar__container nav .link_container a:hover svg {
@@ -109,7 +109,7 @@
   content: "PROJECTS";
 }
 .navbar__container nav .link_container a.active svg {
-  color: #ffb100;
+  color: #F0F465;
 }
 .navbar__container .contact__container {
   width: 100%;
@@ -147,7 +147,7 @@
   text-align: center;
 }
 .navbar__container .contact__container ul li a:hover svg {
-  color: #ffb100;
+  color: #F0F465;
 }
 .navbar__container .hamburger_menu_icon {
   display: none;
@@ -290,7 +290,7 @@
     transition: all 0.3s ease-out;
   }
   .navbar__container nav.navbar-visible .arrow_up:hover {
-    color: #ffb100;
+    color: #F0F465;
   }
   .navbar__container nav.navbar-visible .link_container {
     display: -webkit-box;
@@ -348,6 +348,6 @@
     cursor: pointer;
   }
   .navbar__container .hamburger_menu_icon:hover {
-    color: #ffb100;
+    color: #F0F465;
   }
 }

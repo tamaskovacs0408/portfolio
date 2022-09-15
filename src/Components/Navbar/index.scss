@@ -57,7 +57,7 @@
           transition: all 0.3s ease-out;
         }
         &:hover {
-          color: #ffb100;
+          color: #F0F465;
           text-shadow: 1px white;
   
           svg {
@@ -100,7 +100,7 @@
       }
       a.active {
         svg {
-          color: #ffb100;
+          color: #F0F465;
         }
       }
     }
@@ -130,7 +130,7 @@
           text-align: center;
 
           &:hover svg {
-            color: #ffb100;
+            color: #F0F465;
           }
         }
       }
@@ -240,7 +240,7 @@
         }
 
         .arrow_up:hover {
-          color: #ffb100;
+          color: #F0F465;
         }
 
         .link_container {
@@ -283,7 +283,7 @@
       cursor: pointer;
     }
     .hamburger_menu_icon:hover {
-      color: #ffb100;
+      color: #F0F465;
     }
   }
 }
