@@ -23,7 +23,7 @@
       letter-spacing: 2px;
       font-weight: 300;
       line-height: 80px;
-      text-shadow: 3px 2px #ffb100;
+      text-shadow: 3px 2px #279AF1;
       text-align: center;
       animation: lightSpeedInRight 1.5s 1.5s;
       animation-fill-mode: forwards;
@@ -38,11 +38,11 @@
 
       .about_link {
         text-decoration: none;
-        color: #ffb100;
+        color: #F0F465;
         transition: color ease-in 0.3s;
       }
       .about_link:hover {
-        color: #ffd269;
+        color: #fcffa0;
       }
     }
   }
