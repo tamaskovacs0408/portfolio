@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./index.scss";
-import LogoTK from "../../Assets/Images/tk_pic.png";
+import LogoTK from "../../Assets/Images/Tk_logo_alt2.png";
 import LogoTKsub from "../../Assets/Images/tamkov.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
