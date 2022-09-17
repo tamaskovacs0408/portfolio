@@ -80,7 +80,7 @@
   display: block;
   width: 80%;
   height: auto;
-  opacity: 0.3;
+  opacity: 0.2;
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s;
 }
