@@ -1,8 +1,7 @@
 import Loader from "react-loaders";
 import "./index.scss";
 import CV from "../../Assets/CV/tamas_kovacs_cv_en.pdf";
-import ProfilePicture from '../../Assets/Images/profile_photo.png'
-
+import ProfilePicture from "../../Assets/Images/profile_photo.png";
 
 const About = () => {
   return (
@@ -11,16 +10,20 @@ const About = () => {
         <article className="text_container">
           <h1>ABOUT ME</h1>
           <p>
-            I am a self-taught and highly motivated web developer who seeking to
-            launch a career building web applications and services.
+            I am a self-taught, highly motivated front-end developer. I'm a good
+            team player but I can work on my own, as well. In my free time I
+            like reading and photography.
           </p>
           <p>
-            Although I'm a beginner, I have experience with the following
-            programming languages and frameworks: HTML5, CSS3, Sass, JavaScript
-            and React.
+            have experience with front-end development, mainly use ReactJS and
+            JavaScript, but I'm eager and open to learn new technologies. This
+            summer I was attend the EPAM's Junior Front-end Program, where I
+            gained a lot of experience with algorithms and problem solving by a
+            ton of Codewars katas. I have some basic experience with Python and
+            I would like to deepen my knowledge with it in the future.
           </p>
           <p>
-            For mor information visit my{" "}
+            For more information visit my{" "}
             <a
               className="about_link"
               target="_blank"
@@ -29,7 +32,14 @@ const About = () => {
             >
               LinkedIn
             </a>{" "}
-            profile
+            profile, contact me via{" "}
+            <a
+              className="about_link"
+              href="mailto:kovacs.tamas0408@gmail.com"
+              rel="noreferrer"
+            >
+              email
+            </a>
             {/* <a className="about_link" href={CV} download>
               link
             </a> */}

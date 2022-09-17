@@ -49,7 +49,7 @@
           animation-delay: inherit;
 }
 .about-container .text_container p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   width: 80%;
   -webkit-animation: backInUp 2s 2s;
           animation: backInUp 2s 2s;
@@ -65,7 +65,7 @@
   transition: color ease-in 0.3s;
 }
 .about-container .text_container p .about_link:hover {
-  color: #fcffa0;
+  color: #ffb100;
 }
 .about-container .image_container {
   width: 500px;
@@ -95,6 +95,11 @@
           animation-delay: initial;
 }
 
+@media screen and (max-width: 992px) {
+  .about-container .text_container p {
+    font-size: 1.8rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .about-container {
     top: 50%;

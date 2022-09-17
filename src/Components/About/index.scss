@@ -30,7 +30,7 @@
       animation-delay: inherit;
     }
     p {
-      font-size: 1.8rem;
+      font-size: 2rem;
       width: 80%;
       animation: backInUp 2s 2s;
       animation-fill-mode: backwards;
@@ -42,7 +42,7 @@
         transition: color ease-in 0.3s;
       }
       .about_link:hover {
-        color: #fcffa0;
+        color: #ffb100;
       }
     }
   }
@@ -60,6 +60,16 @@
       animation: backInUp 2s 2s;
       animation-fill-mode: backwards;
       animation-delay: initial;
+    }
+  }
+}
+
+@media screen and (max-width: 992px){
+  .about-container {
+    .text_container {
+      p {
+        font-size: 1.8rem;
+      }
     }
   }
 }
