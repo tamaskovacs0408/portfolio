@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-weight: 400;
-  font-family: 'Futura', 'sans-serif';
+  font-family: 'Futura', 'Courier New', 'sans-serif';
   color: white;
   background: #0e3e65;
   overflow: hidden;

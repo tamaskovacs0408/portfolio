@@ -80,7 +80,7 @@
   display: block;
   width: 80%;
   height: auto;
-  opacity: 0.5;
+  opacity: 0.3;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
 }
