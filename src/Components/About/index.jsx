@@ -1,7 +1,6 @@
 import Loader from "react-loaders";
 import "./index.scss";
-import CV from "../../Assets/CV/tamas_kovacs_cv_en.pdf";
-import ProfilePicture from "../../Assets/Images/profile_photo.png";
+import ProfilePic from "../../Assets/Images/profile_photo.png";
 
 const About = () => {
   return (
@@ -56,7 +55,7 @@ const About = () => {
           </p>
         </article>
         <article className="image_container">
-          <img src={ProfilePicture} alt="Profile picture" />
+          <img src={ProfilePic} alt="Profile" />
         </article>
       </section>
       <Loader type="ball-scale-ripple-multiple" />
