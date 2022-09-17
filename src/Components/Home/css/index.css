@@ -121,8 +121,6 @@
     z-index: 1;
   }
   .home__container .logo_container {
-    -webkit-animation: none;
-            animation: none;
     position: absolute;
     bottom: none;
     top: 50%;
@@ -131,7 +129,7 @@
             transform: translate(-50%, -50%);
     width: 100%;
     height: auto;
-    opacity: 0.35;
+    opacity: 0.6;
   }
 }
 @media screen and (max-width: 576px) {
