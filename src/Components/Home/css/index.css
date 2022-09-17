@@ -81,8 +81,12 @@
   width: 80%;
   height: auto;
   opacity: 0.3;
-  -webkit-transform: rotate(8deg);
-          transform: rotate(8deg);
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+}
+.home__container .logo_container .logo_tk:hover {
+  -webkit-animation: pulse 3s infinite;
+          animation: pulse 3s infinite;
 }
 
 @media screen and (max-width: 992px) {

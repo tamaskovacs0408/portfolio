@@ -62,8 +62,13 @@
       width: 80%;
       height: auto;
       opacity: 0.3;
-      transform: rotate(8deg);
+      //transform: rotate(8deg);
+      transition: all ease-in .3s;
     }
+    .logo_tk:hover {
+      animation: pulse 3s infinite;
+    }
+    
   }
 }
 
