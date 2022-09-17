@@ -42,7 +42,7 @@
       letter-spacing: 5px;
       color: #F0F465;
       text-shadow: 1px 1px #279AF1;
-      font-size: 2rem;
+      font-size: 2.5rem;
       animation: slideInUp 3s 3s;
       animation-fill-mode: backwards;
       animation-delay: initial;
@@ -62,7 +62,6 @@
       width: 80%;
       height: auto;
       opacity: 0.3;
-      //transform: rotate(8deg);
       transition: all ease-in .3s;
     }
     .logo_tk:hover {
@@ -101,6 +100,16 @@
       width: 80%;
       box-sizing: border-box;
       z-index: 1;
+
+      h1 {
+        #monogram {
+          font-size: 8.5rem;
+        }
+      }
+
+      #title {
+        font-size: 2rem;
+      }
     }
 
     .logo_container {
@@ -123,7 +132,11 @@
       width: 50%;
 
       h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+
+        #monogram {
+          font-size: 7rem;
+        }
       }
     }
 

@@ -55,7 +55,7 @@
   letter-spacing: 5px;
   color: #F0F465;
   text-shadow: 1px 1px #279AF1;
-  font-size: 2rem;
+  font-size: 2.5rem;
   -webkit-animation: slideInUp 3s 3s;
           animation: slideInUp 3s 3s;
   -webkit-animation-fill-mode: backwards;
@@ -120,6 +120,12 @@
             box-sizing: border-box;
     z-index: 1;
   }
+  .home__container .welcome_container h1 #monogram {
+    font-size: 8.5rem;
+  }
+  .home__container .welcome_container #title {
+    font-size: 2rem;
+  }
   .home__container .logo_container {
     position: absolute;
     bottom: none;
@@ -137,7 +143,10 @@
     width: 50%;
   }
   .home__container .welcome_container h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+  .home__container .welcome_container h1 #monogram {
+    font-size: 7rem;
   }
   .home__container .logo_container {
     width: 100%;
