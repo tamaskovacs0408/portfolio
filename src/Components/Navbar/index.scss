@@ -41,10 +41,10 @@
     }
 
     .link_container {
-      height: 100%;
+      height: 60%;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-around;
 
       a {
         font-size: 2.5rem;
@@ -109,7 +109,8 @@
   }
 
   .contact__container {
-    height: 30%;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -123,6 +124,14 @@
       text-align: center;
       li {
         margin: 5px auto;
+        .email-link {
+          display: relative;
+
+          .tooltip {
+            display: none;
+          }
+        }
+
         a {
           color: white;
           text-decoration: none;
