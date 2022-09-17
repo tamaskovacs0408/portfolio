@@ -51,9 +51,8 @@ const Navbar = () => {
         <article className="contact__container">
           <ul>
             <li>
-              <a className="email-link" href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
+              <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
                 <FontAwesomeIcon icon={faAt} />
-                <span className="tooltip">kovacs.tamas0408@gmail.com</span>
               </a>
             </li>
             <li>

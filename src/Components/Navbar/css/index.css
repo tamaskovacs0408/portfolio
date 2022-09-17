@@ -142,12 +142,6 @@
 .navbar__container .contact__container ul li {
   margin: 5px auto;
 }
-.navbar__container .contact__container ul li .email-link {
-  display: relative;
-}
-.navbar__container .contact__container ul li .email-link .tooltip {
-  display: none;
-}
 .navbar__container .contact__container ul li a {
   color: white;
   text-decoration: none;
