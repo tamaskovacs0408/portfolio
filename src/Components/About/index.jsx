@@ -1,7 +1,8 @@
 import Loader from "react-loaders";
 import "./index.scss";
 import CV from "../../Assets/CV/tamas_kovacs_cv_en.pdf";
-import ProfilePicture from "../../Assets/Images/profile_photo.png";
+import ProfilePicture from '../../Assets/Images/profile_photo.png'
+
 
 const About = () => {
   return (
@@ -28,7 +29,11 @@ const About = () => {
             >
               LinkedIn
             </a>{" "}
-            profile, or you can check out my projects on my{" "}
+            profile
+            {/* <a className="about_link" href={CV} download>
+              link
+            </a> */}
+            , or you can check out my projects on my{" "}
             <a
               className="about_link"
               href="https://github.com/tamaskovacs0408"
