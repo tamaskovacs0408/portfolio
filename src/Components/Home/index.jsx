@@ -1,5 +1,5 @@
 import "./index.scss";
-import LogoTK from "../../Assets/Images/Tk_logo-02.png";
+import LogoTK from "../../Assets/Images/tk-logo.png";
 import Loader from "react-loaders";
 
 const Home = () => {
