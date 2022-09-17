@@ -119,7 +119,7 @@
   transition: color ease-in 0.3s;
 }
 .projects__container .inner_container .projects .link_container .link_icon:hover {
-  color: #fcffa0;
+  color: #ffb100;
 }
 
 @media screen and (max-width: 992px) {
