@@ -14,7 +14,7 @@ const About = () => {
             like reading and photography.
           </p>
           <p>
-            have experience with front-end development, mainly use ReactJS and
+            I have experience with front-end development, mainly use ReactJS and
             JavaScript, but I'm eager and open to learn new technologies. This
             summer I was attend the EPAM's Junior Front-end Program, where I
             gained a lot of experience with algorithms and problem solving by a
