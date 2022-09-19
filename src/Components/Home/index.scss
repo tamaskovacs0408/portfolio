@@ -16,7 +16,7 @@
     h1 {
       font-size: 7rem;
       letter-spacing: 2px;
-      font-weight: 300;
+      font-weight: 900;
       line-height: 80px;
       text-shadow: 3px 2px #279AF1;
       animation: lightSpeedInRight 1.5s 1.5s;
@@ -29,6 +29,7 @@
         color: #279AF1;
         text-shadow: 3px 1px #F0F465;
         font-size: 10rem;
+        font-weight: bolder;
         animation: rotateInDownLeft 1.5s 1s;
         animation-fill-mode: backwards;
         animation-delay: 1500;
@@ -43,6 +44,7 @@
       color: #F0F465;
       text-shadow: 1px 1px #279AF1;
       font-size: 2.5rem;
+      font-weight: 600;
       animation: slideInUp 3s 3s;
       animation-fill-mode: backwards;
       animation-delay: initial;
