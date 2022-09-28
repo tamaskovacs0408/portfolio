@@ -88,6 +88,51 @@
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+.projects__container .inner_container .projects .image_container #project_2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Images/color_project.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform ease-in 0.3s;
+  transition: -webkit-transform ease-in 0.3s;
+  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.3s, -webkit-transform ease-in 0.3s;
+}
+.projects__container .inner_container .projects .image_container #project_2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.projects__container .inner_container .projects .image_container #project_3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Images//crypto_project.png");
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform ease-in 0.3s;
+  transition: -webkit-transform ease-in 0.3s;
+  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.3s, -webkit-transform ease-in 0.3s;
+}
+.projects__container .inner_container .projects .image_container #project_3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.projects__container .inner_container .projects .image_container #project_4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Images/recipe_project.png");
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform ease-in 0.3s;
+  transition: -webkit-transform ease-in 0.3s;
+  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.3s, -webkit-transform ease-in 0.3s;
+}
+.projects__container .inner_container .projects .image_container #project_4:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 .projects__container .inner_container .projects h2 {
   font-size: 2rem;
   text-align: center;

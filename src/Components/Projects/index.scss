@@ -60,6 +60,40 @@
         #project_1:hover {
           transform: scale(1.2);
         }
+        #project_2 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/color_project.jpeg');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_2:hover {
+          transform: scale(1.2);
+        }
+        #project_3 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images//crypto_project.png');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_3:hover {
+          transform: scale(1.2);
+        }
+        #project_4 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/recipe_project.png');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_4:hover {
+          transform: scale(1.2);
+        }
+
       }
       
       h2 {
