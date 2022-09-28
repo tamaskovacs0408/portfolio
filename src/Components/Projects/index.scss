@@ -27,8 +27,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    // justify-content: space-between;
-    // align-items: baseline;
+    align-items: baseline;
     animation: backInUp 2s 2s;
     animation-fill-mode: backwards;
     animation-delay: initial;
@@ -44,8 +43,10 @@
 
       .image_container {
         align-self: center;
-        width: 250px;
-        height: 250px;
+        width: 230px;
+        height: 230px;
+        max-width: 250px;
+        max-height: 250px;
         margin: 10px auto;
         overflow: hidden;
         
@@ -97,9 +98,8 @@
       }
       
       h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
-        text-decoration: underline;
       }
       .link_container {
         display: flex;
@@ -144,7 +144,6 @@
 
     .inner_container {
       grid-template-columns: 1fr 1fr;
-
       }
     }
   }

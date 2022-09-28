@@ -40,6 +40,9 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   -webkit-animation: backInUp 2s 2s;
           animation: backInUp 2s 2s;
   -webkit-animation-fill-mode: backwards;
@@ -68,8 +71,10 @@
 .projects__container .inner_container .projects .image_container {
   -ms-flex-item-align: center;
       align-self: center;
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
+  max-width: 250px;
+  max-height: 250px;
   margin: 10px auto;
   overflow: hidden;
 }
@@ -134,9 +139,8 @@
           transform: scale(1.2);
 }
 .projects__container .inner_container .projects h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
-  text-decoration: underline;
 }
 .projects__container .inner_container .projects .link_container {
   display: -webkit-box;
