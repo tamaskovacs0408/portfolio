@@ -67,10 +67,12 @@
 @media screen and (max-width: 992px){
   .about-container {
     .text_container {
-      width: 80%;
       p {
         font-size: 1.8rem;
       }
+    }
+    .image_container {
+      max-width: 500px;
     }
   }
 }

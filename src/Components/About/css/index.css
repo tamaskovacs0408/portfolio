@@ -92,11 +92,11 @@
 }
 
 @media screen and (max-width: 992px) {
-  .about-container .text_container {
-    width: 80%;
-  }
   .about-container .text_container p {
     font-size: 1.8rem;
+  }
+  .about-container .image_container {
+    max-width: 500px;
   }
 }
 @media screen and (max-width: 768px) {
