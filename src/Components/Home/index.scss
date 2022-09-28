@@ -18,7 +18,7 @@
       letter-spacing: 2px;
       font-weight: 900;
       line-height: 80px;
-      text-shadow: 3px 2px #279AF1;
+      text-shadow: 3px 2px #279af1;
       animation: lightSpeedInRight 1.5s 1.5s;
       animation-fill-mode: forwards;
       animation-delay: inherit;
@@ -26,8 +26,8 @@
       #monogram {
         margin: 0;
         padding: 0;
-        color: #279AF1;
-        text-shadow: 3px 1px #F0F465;
+        color: #279af1;
+        text-shadow: 3px 1px #f0f465;
         font-size: 10rem;
         font-weight: bolder;
         animation: rotateInDownLeft 1.5s 1s;
@@ -41,8 +41,8 @@
       width: 100%;
       text-align: left;
       letter-spacing: 5px;
-      color: #F0F465;
-      text-shadow: 1px 1px #279AF1;
+      color: #f0f465;
+      text-shadow: 1px 1px #279af1;
       font-size: 2.5rem;
       font-weight: 600;
       animation: slideInUp 3s 3s;
@@ -55,8 +55,8 @@
       margin-top: 10px;
       border-radius: 4px;
       box-shadow: 0 4px 5px 0 #ecf08a;
-      background: #F0F465;
-      animation: slideInUp 3.5s 3.5s;
+      background: #f0f465;
+      animation: slideInUp 3s 3s;
       animation-fill-mode: backwards;
       animation-delay: initial;
       transition: all ease-in 0.3s;
@@ -65,8 +65,11 @@
         text-decoration: none;
         font-size: 3.5rem;
         text-transform: uppercase;
-        color: #0A2A45;
+        color: #0a2a45;
         font-weight: 600;
+        animation: slideInUp 3s 3s;
+        animation-fill-mode: backwards;
+        animation-delay: initial;
       }
     }
     .contact_button:hover {
@@ -88,25 +91,21 @@
       width: 80%;
       height: auto;
       opacity: 0.2;
-      transition: all ease-in .3s;
+      transition: all ease-in 0.3s;
     }
     .logo_tk:hover {
       animation: pulse 3s infinite;
     }
-    
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .home__container {
     .welcome_container {
-
       h1 {
         font-size: 6rem;
       }
     }
-
-    
   }
 }
 
@@ -156,9 +155,8 @@
   }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   .home__container {
-
     .welcome_container {
       width: 50%;
 

@@ -27,7 +27,7 @@
   letter-spacing: 2px;
   font-weight: 900;
   line-height: 80px;
-  text-shadow: 3px 2px #279AF1;
+  text-shadow: 3px 2px #279af1;
   -webkit-animation: lightSpeedInRight 1.5s 1.5s;
           animation: lightSpeedInRight 1.5s 1.5s;
   -webkit-animation-fill-mode: forwards;
@@ -38,8 +38,8 @@
 .home__container .welcome_container h1 #monogram {
   margin: 0;
   padding: 0;
-  color: #279AF1;
-  text-shadow: 3px 1px #F0F465;
+  color: #279af1;
+  text-shadow: 3px 1px #f0f465;
   font-size: 10rem;
   font-weight: bolder;
   -webkit-animation: rotateInDownLeft 1.5s 1s;
@@ -54,8 +54,8 @@
   width: 100%;
   text-align: left;
   letter-spacing: 5px;
-  color: #F0F465;
-  text-shadow: 1px 1px #279AF1;
+  color: #f0f465;
+  text-shadow: 1px 1px #279af1;
   font-size: 2.5rem;
   font-weight: 600;
   -webkit-animation: slideInUp 3s 3s;
@@ -72,9 +72,9 @@
   border-radius: 4px;
   -webkit-box-shadow: 0 4px 5px 0 #ecf08a;
           box-shadow: 0 4px 5px 0 #ecf08a;
-  background: #F0F465;
-  -webkit-animation: slideInUp 3.5s 3.5s;
-          animation: slideInUp 3.5s 3.5s;
+  background: #f0f465;
+  -webkit-animation: slideInUp 3s 3s;
+          animation: slideInUp 3s 3s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
   -webkit-animation-delay: initial;
@@ -86,8 +86,14 @@
   text-decoration: none;
   font-size: 3.5rem;
   text-transform: uppercase;
-  color: #0A2A45;
+  color: #0a2a45;
   font-weight: 600;
+  -webkit-animation: slideInUp 3s 3s;
+          animation: slideInUp 3s 3s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
 }
 .home__container .welcome_container .contact_button:hover {
   background: #ecf08a;
