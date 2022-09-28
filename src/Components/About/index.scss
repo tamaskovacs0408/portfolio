@@ -6,8 +6,8 @@
   width: 100%;
   min-width: 600px;
   height: 100%;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 
   .text_container {
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
+    width: 100%;
     margin-left: 20px;
 
     h1 {
@@ -67,6 +67,7 @@
 @media screen and (max-width: 992px){
   .about-container {
     .text_container {
+      width: 80%;
       p {
         font-size: 1.8rem;
       }
@@ -79,6 +80,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    grid-template-columns: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
