@@ -126,17 +126,6 @@
     h1 {
       align-self: center;
     }
-    .inner_container {
-      .projects {
-        width: 20%;
-
-        .image_container {
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
   }
 }
 
@@ -154,34 +143,17 @@
     }
 
     .inner_container {
-      flex-wrap: wrap;
-      height: 55%;
-      justify-content: baseline;
-      align-items: center;
+      grid-template-columns: 1fr 1fr;
 
-      .projects {
-        width: 45%;
-        height: 100%;
-
-        .image_container {
-          width: 150px;
-          height: auto;
-        }
-
-        p {
-          width: 80%;
-        }
       }
     }
   }
-}
+
 
 @media screen and (max-width: 576px) {
   .projects__container {
     .inner_container {
-      .projects {
-        width: 80%;
-      }
+      grid-template-columns: 1fr;
     }
   }
 }
