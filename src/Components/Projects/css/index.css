@@ -152,7 +152,7 @@
 }
 .projects__container .inner_container .projects .link_container .link_icon {
   font-size: 2.5rem;
-  margin: 10px;
+  margin: 0 10px;
   text-decoration: none;
   color: #F0F465;
   -webkit-transition: color ease-in 0.3s;
