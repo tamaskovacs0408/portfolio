@@ -14,12 +14,17 @@ const Home = () => {
             <span id="monogram">T</span>amas <span id="monogram">K</span>ovacs!
           </h1>
           <span id="title">FRONTEND DEVELOPER</span>
+          <button className="contact_button">
+            <a href="mailto:kovacs.tamas0408@gmail.com" rel="noreferrer">
+              Contact me
+            </a>
+          </button>
         </article>
         <article className="logo_container">
           <img className="logo_tk" src={LogoTK} alt="logo" />
         </article>
       </section>
-      <Loader type="ball-scale-ripple-multiple"/>
+      <Loader type="ball-scale-ripple-multiple" />
     </>
   );
 };

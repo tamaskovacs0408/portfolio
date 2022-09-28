@@ -65,6 +65,35 @@
   -webkit-animation-delay: initial;
           animation-delay: initial;
 }
+.home__container .welcome_container .contact_button {
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 5px 0 #ecf08a;
+          box-shadow: 0 4px 5px 0 #ecf08a;
+  background: #F0F465;
+  -webkit-animation: slideInUp 3.5s 3.5s;
+          animation: slideInUp 3.5s 3.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+}
+.home__container .welcome_container .contact_button a {
+  text-decoration: none;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: #0A2A45;
+  font-weight: 600;
+}
+.home__container .welcome_container .contact_button:hover {
+  background: #ecf08a;
+  -webkit-box-shadow: 0 4px 10px 0 #ecf08a;
+          box-shadow: 0 4px 10px 0 #ecf08a;
+}
 .home__container .logo_container {
   position: absolute;
   left: 20%;
@@ -128,6 +157,9 @@
   .home__container .welcome_container #title {
     font-size: 2rem;
   }
+  .home__container .welcome_container .contact_button a {
+    font-size: 3rem;
+  }
   .home__container .logo_container {
     position: absolute;
     -webkit-animation: none;
@@ -150,6 +182,9 @@
   }
   .home__container .welcome_container h1 #monogram {
     font-size: 7rem;
+  }
+  .home__container .welcome_container .contact_button a {
+    font-size: 2.5rem;
   }
   .home__container .logo_container {
     width: 100%;

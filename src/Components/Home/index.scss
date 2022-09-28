@@ -49,6 +49,30 @@
       animation-fill-mode: backwards;
       animation-delay: initial;
     }
+    .contact_button {
+      cursor: pointer;
+      border: none;
+      margin-top: 10px;
+      border-radius: 4px;
+      box-shadow: 0 4px 5px 0 #ecf08a;
+      background: #F0F465;
+      animation: slideInUp 3.5s 3.5s;
+      animation-fill-mode: backwards;
+      animation-delay: initial;
+      transition: all ease-in 0.3s;
+
+      a {
+        text-decoration: none;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        color: #0A2A45;
+        font-weight: 600;
+      }
+    }
+    .contact_button:hover {
+      background: #ecf08a;
+      box-shadow: 0 4px 10px 0 #ecf08a;
+    }
   }
   .logo_container {
     position: absolute;
@@ -112,6 +136,11 @@
       #title {
         font-size: 2rem;
       }
+      .contact_button {
+        a {
+          font-size: 3rem;
+        }
+      }
     }
 
     .logo_container {
@@ -138,6 +167,11 @@
 
         #monogram {
           font-size: 7rem;
+        }
+      }
+      .contact_button {
+        a {
+          font-size: 2.5rem;
         }
       }
     }
