@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav className={showNavbar ? 'navbar-visible' : ''}>
         <FontAwesomeIcon onClick={() =>setshowNavbar(false)} className="arrow_up" icon={faArrowUp}/>
         <article className="link_container">
-          <NavLink exact="true" activeclassname="active" to="/">
+          <NavLink exact="true" activeclassname="active" to="/" onClick={() => setshowNavbar(false)}>
             <FontAwesomeIcon icon={faHome} />
           </NavLink>
           <NavLink
@@ -36,6 +36,7 @@ const Navbar = () => {
             activeclassname="active"
             className="about-link"
             to="/about"
+            onClick={() => setshowNavbar(false)}
           >
             <FontAwesomeIcon icon={faUser} />
           </NavLink>
@@ -44,6 +45,7 @@ const Navbar = () => {
             activeclassname="active"
             className="projects-link"
             to="/projects"
+            onClick={() => setshowNavbar(false)}
           >
             <FontAwesomeIcon icon={faEye} />
           </NavLink>
