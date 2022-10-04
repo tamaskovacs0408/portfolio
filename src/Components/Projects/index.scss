@@ -143,3 +143,14 @@
     }
   }
 }
+
+@media screen and (min-width: 768px){
+  .projects__container {
+    h1 {
+      font-size: 6rem;
+    }
+    .inner_container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

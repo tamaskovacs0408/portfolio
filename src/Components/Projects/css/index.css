@@ -192,3 +192,12 @@
 .projects__container .inner_container .projects .link_container .link_icon:hover {
   color: #ffb100;
 }
+
+@media screen and (min-width: 768px) {
+  .projects__container h1 {
+    font-size: 6rem;
+  }
+  .projects__container .inner_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
