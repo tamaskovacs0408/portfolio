@@ -14,3 +14,9 @@ This is my portfolio website made with React. You can reach my LinkedIn and Gith
 <a href="https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons">Free Brand SVG Icons</a>
 <a href="https://animate.style/">Animate.css</a>
 <a href="https://www.npmjs.com/package/react-loaders">React Loaders</a>
+
+**Screenshots**
+
+<img src="src/Assets/Screenshots/port_main.jpg" alt="screenshot">
+<img src="src/Assets/Screenshots/port_about.jpg" alt="screenshot">
+<img src="src/Assets/Screenshots/port_projects.jpg" alt="screenshot">
