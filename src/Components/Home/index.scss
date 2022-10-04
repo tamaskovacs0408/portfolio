@@ -4,7 +4,6 @@
   left: 60%;
   transform: translate(-50%, -50%);
   width: 100%;
-  min-width: 600px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -118,6 +117,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-width: none;
     height: 100%;
 
     .welcome_container {
@@ -157,6 +157,7 @@
 
 @media screen and (max-width: 576px) {
   .home__container {
+    width: auto;
     .welcome_container {
       width: 50%;
 

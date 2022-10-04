@@ -2,7 +2,6 @@
   position: absolute;
   left: 10%;
   width: 90%;
-  min-width: 600px;
   height: 100%;
   margin: 0 auto;
   display: -webkit-box;
@@ -71,10 +70,8 @@
 .projects__container .inner_container .projects .image_container {
   -ms-flex-item-align: center;
       align-self: center;
-  width: 230px;
-  height: 230px;
-  max-width: 250px;
-  max-height: 250px;
+  width: 250px;
+  height: 250px;
   margin: 10px auto;
   overflow: hidden;
 }
@@ -205,6 +202,7 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 100%;
+    min-width: none;
     height: 90%;
   }
   .projects__container h1 {
