@@ -142,7 +142,7 @@
   width: 100%;
   height: 100%;
   background-image: url("../../Assets/Images/docs_screen.jpg");
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
   -webkit-transition: -webkit-transform ease-in 0.3s;
   transition: -webkit-transform ease-in 0.3s;

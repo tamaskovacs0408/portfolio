@@ -41,7 +41,7 @@ const Projects = () => {
             <div className="image_container project_3">
               <div id="project_3"></div>
             </div>
-            <h2>Get current price</h2>
+            <h2>Hodler Checker</h2>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/crypto_fav" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
@@ -69,7 +69,7 @@ const Projects = () => {
             <div className="image_container">
               <div id="project_5"></div>
             </div>
-            <h2>Github Authenticator</h2>
+            <h2>Docs</h2>
             <div className="link_container">
               <a className="link_icon" href="https://github.com/tamaskovacs0408/github_auth" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
