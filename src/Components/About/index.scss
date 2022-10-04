@@ -55,6 +55,22 @@
     img {
       display: block;
       width: 100%;
+      animation: backInUp 2s 2s;
+      animation-fill-mode: backwards;
+      animation-delay: initial;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  .about-container {
+    .text_container {
+      h1 {
+        font-size: 6rem;
+      }
+      p {
+        font-size: 1.8rem;
+      }
     }
   }
 }

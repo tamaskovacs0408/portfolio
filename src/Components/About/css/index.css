@@ -84,4 +84,19 @@
 .about-container .image_container img {
   display: block;
   width: 100%;
+  -webkit-animation: backInUp 2s 2s;
+          animation: backInUp 2s 2s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: initial;
+          animation-delay: initial;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container .text_container h1 {
+    font-size: 6rem;
+  }
+  .about-container .text_container p {
+    font-size: 1.8rem;
+  }
 }
