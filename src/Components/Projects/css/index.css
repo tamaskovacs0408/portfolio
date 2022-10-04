@@ -111,7 +111,7 @@
 .projects__container .inner_container .projects .image_container #project_3 {
   width: 100%;
   height: 100%;
-  background-image: url("../../Assets/Images//crypto_project.png");
+  background-image: url("../../Assets/Images/hodler.jpg");
   background-size: cover;
   overflow: hidden;
   -webkit-transition: -webkit-transform ease-in 0.3s;
@@ -141,7 +141,7 @@
 .projects__container .inner_container .projects .image_container #project_5 {
   width: 100%;
   height: 100%;
-  background-image: url("../../Assets/Images/firebase_project.png");
+  background-image: url("../../Assets/Images/docs_screen.jpg");
   background-size: contain;
   overflow: hidden;
   -webkit-transition: -webkit-transform ease-in 0.3s;
