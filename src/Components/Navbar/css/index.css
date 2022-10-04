@@ -78,7 +78,7 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-.navbar__container nav.navbar-visible .arrow_up {
+.navbar__container nav.navbar-visible .close {
   display: block;
   font-size: 2.5rem;
   margin: 10px auto;
