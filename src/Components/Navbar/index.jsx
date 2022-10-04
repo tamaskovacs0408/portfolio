@@ -10,7 +10,7 @@ import {
   faEye,
   faAt,
   faBars,
-  faArrowUp,
+  faXmark
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
       </article>
       <nav className={showNavbar ? 'navbar-visible' : ''}>
-        <FontAwesomeIcon onClick={() =>setshowNavbar(false)} className="arrow_up" icon={faArrowUp}/>
+        <FontAwesomeIcon onClick={() =>setshowNavbar(false)} className="close" icon={faXmark}/>
         <article className="link_container">
           <NavLink exact="true" activeclassname="active" to="/" onClick={() => setshowNavbar(false)}>
             <FontAwesomeIcon icon={faHome} />
