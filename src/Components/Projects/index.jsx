@@ -43,10 +43,10 @@ const Projects = () => {
             </div>
             <h2>Hodler Checker</h2>
             <div className="link_container">
-              <a className="link_icon" href="https://github.com/tamaskovacs0408/crypto_fav" rel="noreferrer" target="_blank">
+              <a className="link_icon" href="https://github.com/tamaskovacs0408/crypto_app" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
               </a>
-              <a className="link_icon" href="https://tamaskovacs0408.github.io/crypto_fav/" rel="noreferrer" target="_blank">
+              <a className="link_icon" href="https://hodler-checker.vercel.app/" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
             </div>
@@ -71,10 +71,10 @@ const Projects = () => {
             </div>
             <h2>Docs</h2>
             <div className="link_container">
-              <a className="link_icon" href="https://github.com/tamaskovacs0408/github_auth" rel="noreferrer" target="_blank">
+              <a className="link_icon" href="https://github.com/tamaskovacs0408/docs_app" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faCode} />
               </a>
-              <a className="link_icon" href="https://tamaskovacs0408.github.io/github_auth/" rel="noreferrer" target="_blank">
+              <a className="link_icon" href="https://docs-app-woad.vercel.app/" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
             </div>
