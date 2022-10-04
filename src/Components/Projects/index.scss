@@ -1,0 +1,145 @@
+.projects__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+
+
+  h1 {
+    font-size: 5rem;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 80px;
+    text-shadow: 3px 2px #279AF1;
+    animation: lightSpeedInRight 1.5s 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: inherit;
+  }
+
+  .inner_container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: baseline;
+    animation: backInUp 2s 2s;
+    animation-fill-mode: backwards;
+    animation-delay: initial;
+    overflow: auto;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      margin: 20px auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .image_container {
+        align-self: center;
+        width: 230px;
+        height: 230px;
+        max-width: 250px;
+        max-height: 250px;
+        margin: 10px auto;
+        overflow: hidden;
+        
+        #project_1 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/shoplist_img.png');
+          background-size: contain;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_1:hover {
+          transform: scale(1.2);
+        }
+        #project_2 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/color_project.jpeg');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_2:hover {
+          transform: scale(1.2);
+        }
+        #project_3 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/hodler.jpg');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_3:hover {
+          transform: scale(1.2);
+        }
+        #project_4 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/recipe_project.png');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_4:hover {
+          transform: scale(1.2);
+        }
+        #project_5 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/docs_screen.jpg');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_5:hover {
+          transform: scale(1.2);
+        }
+        #project_6 {
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Assets/Images/weather_project.png');
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_6:hover {
+          transform: scale(1.2);
+        }
+      }
+      
+      h2 {
+        font-size: 3rem;
+        text-align: center;
+      }
+      .link_container {
+        display: flex;
+        justify-content: center;
+
+        .link_icon {
+          font-size: 2.5rem;
+          margin: 0 10px;
+          text-decoration: none;
+          color: #F0F465;
+          transition: color ease-in 0.3s;
+        }
+        .link_icon:hover {
+          color: #ffb100;
+        }
+      }
+    }
+  }
+}
