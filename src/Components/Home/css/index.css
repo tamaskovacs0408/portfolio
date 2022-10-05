@@ -160,3 +160,14 @@
         align-self: flex-start;
   }
 }
+@media screen and (min-width: 992px) {
+  .home__container .welcome_container h1 {
+    font-size: 8rem;
+  }
+  .home__container .welcome_container #monogram {
+    font-size: 10rem;
+  }
+  .home__container .welcome_container .contact_button a {
+    font-size: 3rem;
+  }
+}
