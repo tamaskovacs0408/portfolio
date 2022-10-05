@@ -17,6 +17,9 @@ This is my portfolio website made with React. You can reach my LinkedIn and Gith
 
 **Screenshots**
 
+Home page:
 <img src="src/Assets/Screenshots/port_main.jpg" alt="screenshot">
+About page:
 <img src="src/Assets/Screenshots/port_about.jpg" alt="screenshot">
+Projects page:
 <img src="src/Assets/Screenshots/port_projects.jpg" alt="screenshot">
