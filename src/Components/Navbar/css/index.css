@@ -46,15 +46,16 @@
   display: inline-block;
   width: 100px;
 }
-.navbar__container nav, .navbar__container ul {
+.navbar__container nav,
+.navbar__container ul {
   display: none;
 }
 .navbar__container nav {
   width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 128, 178, 0.6901960784);
-  height: 100%;
+  background: rgba(0, 128, 178, 0.8078431373);
   margin: 0;
   z-index: 2;
   position: fixed;
@@ -73,6 +74,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  height: 100%;
   -webkit-animation: fadeInDown 1s;
           animation: fadeInDown 1s;
   -webkit-animation-fill-mode: forwards;
@@ -86,10 +89,12 @@
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.navbar__container nav.navbar-visible .arrow_up:hover {
-  color: #F0F465;
+.navbar__container nav.navbar-visible .close:hover {
+  color: #f0f465;
 }
 .navbar__container nav.navbar-visible .link_container {
+  width: 100%;
+  height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,18 +102,83 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar__container nav.navbar-visible .link_container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   width: 100%;
+  font-size: 2.5rem;
+  color: white;
+  margin: 10px auto;
+  text-decoration: none;
 }
-.navbar__container nav.navbar-visible .link_container a {
+.navbar__container nav.navbar-visible .link_container a i {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.navbar__container nav.navbar-visible .link_container a:hover {
+  color: #f0f465;
+  text-shadow: 1px white;
+}
+.navbar__container nav.navbar-visible .link_container a:hover svg {
+  opacity: 0;
+}
+.navbar__container nav.navbar-visible .link_container a:hover::after {
+  opacity: 1;
+}
+.navbar__container nav.navbar-visible .link_container a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  position: absolute;
+  right: auto;
+  bottom: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.navbar__container nav.navbar-visible .link_container a:first-child::after {
+  content: "HOME";
+}
+.navbar__container nav.navbar-visible .link_container a.about-link::after {
+  content: "ABOUT";
+}
+.navbar__container nav.navbar-visible .link_container a.projects-link::after {
+  content: "PROJECTS";
+}
+.navbar__container nav.navbar-visible .link_container a.active svg {
+  color: #f0f465;
+}
+.navbar__container nav .contact__container {
+  height: 20%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -117,33 +187,222 @@
           align-items: center;
   text-align: center;
 }
-.navbar__container nav.navbar-visible .link_container a:after {
-  opacity: 1;
-  width: auto;
-  margin: auto;
-  letter-spacing: 1px;
-  font-size: 2rem;
+.navbar__container nav .contact__container ul {
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
 }
-.navbar__container nav.navbar-visible .link_container a svg {
-  opacity: 0;
+.navbar__container nav .contact__container ul li {
+  margin: 5px auto;
 }
-.navbar__container nav.navbar-visible .contact__container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.navbar__container nav .contact__container ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 2.5rem;
+  margin: 10px auto;
+  text-align: center;
 }
-.navbar__container .hamburger_menu_icon {
+.navbar__container nav .contact__container ul li a:hover svg {
+  color: #f0f465;
+}
+
+.hamburger_menu_icon {
   display: block;
   margin-right: 20px;
   font-size: 2rem;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  -webkit-animation: none;
+          animation: none;
   cursor: pointer;
 }
-.navbar__container .hamburger_menu_icon:hover {
-  color: #F0F465;
+
+.hamburger_menu_icon:hover {
+  color: #f0f465;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger_menu_icon {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar__container {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar__container .logo__container {
+    height: 25%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  .navbar__container .logo__container .logo {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px auto 10px auto;
+  }
+  .navbar__container nav {
+    position: static;
+    height: 75%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #000;
+  }
+  .navbar__container nav .close {
+    display: none;
+  }
+  .navbar__container nav .link_container {
+    height: 60%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .navbar__container nav .link_container a {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+    margin: 10px auto;
+    text-decoration: none;
+  }
+  .navbar__container nav .link_container a i {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .navbar__container nav .link_container a:hover {
+    color: #f0f465;
+    text-shadow: 1px white;
+  }
+  .navbar__container nav .link_container a:hover svg {
+    opacity: 0;
+  }
+  .navbar__container nav .link_container a:hover::after {
+    opacity: 1;
+  }
+  .navbar__container nav .link_container a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    position: absolute;
+    right: auto;
+    bottom: 0;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .navbar__container nav .link_container a:first-child::after {
+    content: "HOME";
+  }
+  .navbar__container nav .link_container a.about-link::after {
+    content: "ABOUT";
+  }
+  .navbar__container nav .link_container a.projects-link::after {
+    content: "PROJECTS";
+  }
+  .navbar__container nav .link_container a.active svg {
+    color: #f0f465;
+  }
+  .navbar__container .contact__container {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .navbar__container .contact__container ul {
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+  }
+  .navbar__container .contact__container ul li {
+    margin: 5px auto;
+  }
+  .navbar__container .contact__container ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 2.5rem;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .navbar__container .contact__container ul li a:hover svg {
+    color: #f0f465;
+  }
+  .navbar__container .hamburger_menu_icon {
+    display: none;
+  }
+  .navbar__container .mobile_navbar {
+    display: none;
+    z-index: 5;
+  }
 }
