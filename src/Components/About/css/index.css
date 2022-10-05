@@ -100,3 +100,30 @@
     font-size: 1.8rem;
   }
 }
+@media screen and (min-width: 992px) {
+  .about-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .about-container .text_container h1 {
+    font-size: 7rem;
+  }
+  .about-container .text_container p {
+    font-size: 2rem;
+  }
+  .image_container {
+    width: auto;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .image_container img {
+    width: 10%;
+    height: auto;
+  }
+}

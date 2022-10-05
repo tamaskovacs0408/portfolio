@@ -74,3 +74,27 @@
     }
   }
 }
+
+@media screen and (min-width: 992px){
+  .about-container {
+    flex-direction: row;
+    justify-content: space-around;
+    .text_container {
+      h1 {
+        font-size: 7rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+  .image_container {
+    width: auto;
+    height: auto;
+    align-items: center;
+    img {
+      width: 10%;
+      height: auto;
+    }
+  }
+}
