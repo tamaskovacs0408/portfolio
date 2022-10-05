@@ -1,6 +1,7 @@
 import Loader from "react-loaders";
 import "./index.scss";
 import ProfilePic from "../../Assets/Images/profile_photo.png";
+import CV from '../../Assets/CV/Tamas_Kovacs_Resume.pdf';
 
 const About = () => {
   return (
@@ -39,10 +40,7 @@ const About = () => {
             >
               email
             </a>
-            {/* <a className="about_link" href={CV} download>
-              link
-            </a> */}
-            , or you can check out my projects on my{" "}
+            , you can check out my projects on my{" "}
             <a
               className="about_link"
               href="https://github.com/tamaskovacs0408"
@@ -51,7 +49,9 @@ const About = () => {
             >
               Github
             </a>{" "}
-            profile.
+            profile, or you can download my <a className="about_link" href={CV} download>
+              resume
+            </a>.
           </p>
         </article>
         <article className="image_container">
