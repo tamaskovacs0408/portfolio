@@ -9,6 +9,7 @@ import {
   faUser,
   faEye,
   faAt,
+  faGear,
   faBars,
   faXmark
 } from "@fortawesome/free-solid-svg-icons";
@@ -25,10 +26,19 @@ const Navbar = () => {
           <img id="logo_sub" src={LogoTKsub} alt="tamas kovacs" />
         </Link>
       </article>
-      <nav className={showNavbar ? 'navbar-visible' : ''}>
-        <FontAwesomeIcon onClick={() =>setshowNavbar(false)} className="close" icon={faXmark}/>
+      <nav className={showNavbar ? "navbar-visible" : ""}>
+        <FontAwesomeIcon
+          onClick={() => setshowNavbar(false)}
+          className="close"
+          icon={faXmark}
+        />
         <article className="link_container">
-          <NavLink exact="true" activeclassname="active" to="/" onClick={() => setshowNavbar(false)}>
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            to="/"
+            onClick={() => setshowNavbar(false)}
+          >
             <FontAwesomeIcon icon={faHome} />
           </NavLink>
           <NavLink
@@ -39,6 +49,15 @@ const Navbar = () => {
             onClick={() => setshowNavbar(false)}
           >
             <FontAwesomeIcon icon={faUser} />
+          </NavLink>
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="skills-link"
+            to="/skills"
+            onClick={() => setshowNavbar(false)}
+          >
+            <FontAwesomeIcon icon={faGear} />
           </NavLink>
           <NavLink
             exact="true"
@@ -80,7 +99,7 @@ const Navbar = () => {
       </nav>
 
       <div className="hamburger_menu_icon">
-        <FontAwesomeIcon onClick={() =>setshowNavbar(true)} icon={faBars} />
+        <FontAwesomeIcon onClick={() => setshowNavbar(true)} icon={faBars} />
       </div>
     </section>
   );
