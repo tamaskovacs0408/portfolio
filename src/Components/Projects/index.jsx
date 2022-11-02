@@ -105,7 +105,7 @@ const Projects = () => {
             <div className="image_container project_4">
               <div id="project_4"></div>
             </div>
-            <h2>Recipe finder</h2>
+            <h2>Recipe Finder</h2>
             <div className="icon_container">
               <img src={HtmlIcon} alt="Html icon" />
               <img src={CssIcon} alt="Css icon" />
