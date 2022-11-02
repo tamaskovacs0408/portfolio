@@ -28,7 +28,7 @@
   letter-spacing: 2px;
   font-weight: 300;
   line-height: 80px;
-  text-shadow: 3px 2px #279AF1;
+  text-shadow: 3px 2px #279af1;
   -webkit-animation: lightSpeedInRight 1.5s 1.5s;
           animation: lightSpeedInRight 1.5s 1.5s;
   -webkit-animation-fill-mode: forwards;
@@ -169,6 +169,36 @@
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+.projects__container .inner_container .projects .image_container #project_7 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Images/bmiscrn.png");
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform ease-in 0.3s;
+  transition: -webkit-transform ease-in 0.3s;
+  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.3s, -webkit-transform ease-in 0.3s;
+}
+.projects__container .inner_container .projects .image_container #project_7:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.projects__container .inner_container .projects .image_container #project_8 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Images/tkoin.png");
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform ease-in 0.3s;
+  transition: -webkit-transform ease-in 0.3s;
+  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.3s, -webkit-transform ease-in 0.3s;
+}
+.projects__container .inner_container .projects .image_container #project_8:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 .projects__container .inner_container .projects h2 {
   font-size: 3rem;
   text-align: center;
@@ -185,7 +215,7 @@
   font-size: 2.5rem;
   margin: 0 10px;
   text-decoration: none;
-  color: #F0F465;
+  color: #f0f465;
   -webkit-transition: color ease-in 0.3s;
   transition: color ease-in 0.3s;
 }
