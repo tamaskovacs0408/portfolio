@@ -1,25 +1,25 @@
-<h1>Portfolio site</h1>
+# Portfolio site
 
-Check it on <a href="https://tkwebdev.eu">here</a>.
+Check it on [here]("https://tkwebdev.eu").
 
-**About**
+## About
 
-This is my portfolio website made with React. You can reach my LinkedIn and Github profile, contact me via email or check out my projects. I used React Router 6 to navigate between pages.
+This is my portfolio website made with React. You can reach my LinkedIn and GitHub profile, contact me via email or check out my projects. I used React Router 6 to navigate between pages.
 
-**Sources**
+## Sources
 
-  - <a href="https://sass-lang.com/">SASS</a>
-  - <a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome">Fontawesome Icons</a>
-  - <a href="https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons">Free Solid SVG Icons</a>
-  - <a href="https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons">Free Brand SVG Icons</a>
-  - <a href="https://animate.style/">Animate.css</a>
-  - <a href="https://www.npmjs.com/package/react-loaders">React Loaders</a>
+- [SASS]("https://sass-lang.com/")
+- [FontAwesome Icons]("https://www.npmjs.com/package/@fortawesome/react-fontawesome")
+- [Free Solid SVG Icons]("https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons")
+- [Free Brand SVG Icons]("https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons")
+- [Animate.css]("https://animate.style/")
+- [React Loaders]("https://www.npmjs.com/package/react-loaders")
 
-**Screenshots**
+## Screenshots
 
 Home page:
-<img src="src/Assets/Screenshots/port_main.jpg" alt="screenshot">
+![Main page screenshot](src/Assets/Screenshots/port_main.jpg)
 About page:
-<img src="src/Assets/Screenshots/port_about.jpg" alt="screenshot">
+![About page screenshot](src/Assets/Screenshots/port_about.jpg)
 Projects page:
-<img src="src/Assets/Screenshots/port_projects.jpg" alt="screenshot">
+![Project page screenshot](src/Assets/Screenshots/port_projects.jpg)
