@@ -163,6 +163,9 @@
 .navbar__container nav.navbar-visible .link_container a.about-link::after {
   content: "ABOUT";
 }
+.navbar__container nav.navbar-visible .link_container a.skills-link::after {
+  content: "SKILLS";
+}
 .navbar__container nav.navbar-visible .link_container a.projects-link::after {
   content: "PROJECTS";
 }
@@ -352,6 +355,9 @@
   }
   .navbar__container nav .link_container a.about-link::after {
     content: "ABOUT";
+  }
+  .navbar__container nav .link_container a.skills-link::after {
+    content: "SKILLS";
   }
   .navbar__container nav .link_container a.projects-link::after {
     content: "PROJECTS";
