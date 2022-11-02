@@ -203,6 +203,19 @@
   font-size: 3rem;
   text-align: center;
 }
+.projects__container .inner_container .projects .icon_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+.projects__container .inner_container .projects .icon_container img {
+  width: 30px;
+  margin: 0 5px;
+}
 .projects__container .inner_container .projects .link_container {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -146,6 +146,16 @@
         font-size: 3rem;
         text-align: center;
       }
+      .icon_container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        img {
+          width: 30px;
+          margin: 0 5px;
+        }
+      }
       .link_container {
         display: flex;
         justify-content: center;

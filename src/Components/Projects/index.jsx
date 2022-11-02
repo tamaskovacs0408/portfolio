@@ -2,6 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
 import Loader from "react-loaders";
 import "./index.scss";
+import ReactIcon from '../../Assets/Icons/react.png';
+import JsIcon from '../../Assets/Icons/js.png';
+import TsIcon from "../../Assets/Icons/ts.png";
+import CssIcon from "../../Assets/Icons/css.png";
+import FirebaseIcon from "../../Assets/Icons/fb.png";
+import PyIcon from "../../Assets/Icons/python.png";
+import SassIcon from "../../Assets/Icons/sass.png";
+import HtmlIcon from "../../Assets/Icons/html.png";
+import MuIcon from "../../Assets/Icons/mui.png";
+import StyledIcon from "../../Assets/Icons/styled.png";
 
 const Projects = () => {
   return (
@@ -14,6 +24,9 @@ const Projects = () => {
               <div id="project_1"></div>
             </div>
             <h2>Shopping list</h2>
+            <div className="icon_container">
+              <img src={ReactIcon} alt="React icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -38,6 +51,9 @@ const Projects = () => {
               <div id="project_2"></div>
             </div>
             <h2>Tint and shade generator</h2>
+            <div className="icon_container">
+              <img src={ReactIcon} alt="React icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -62,6 +78,10 @@ const Projects = () => {
               <div id="project_3"></div>
             </div>
             <h2>Hodler Checker</h2>
+            <div className="icon_container">
+              <img src={ReactIcon} alt="React icon" />
+              <img src={SassIcon} alt="Sass icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -86,6 +106,11 @@ const Projects = () => {
               <div id="project_4"></div>
             </div>
             <h2>Recipe finder</h2>
+            <div className="icon_container">
+              <img src={HtmlIcon} alt="Html icon" />
+              <img src={CssIcon} alt="Css icon" />
+              <img src={JsIcon} alt="JavaScript icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -110,6 +135,11 @@ const Projects = () => {
               <div id="project_5"></div>
             </div>
             <h2>Docs</h2>
+            <div className="icon_container">
+              <img src={ReactIcon} alt="React icon" />
+              <img src={FirebaseIcon} alt="Firebase icon" />
+              <img src={MuIcon} alt="Material UI icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -134,6 +164,10 @@ const Projects = () => {
               <div id="project_6"></div>
             </div>
             <h2>Weather App</h2>
+            <div className="icon_container">
+              <img src={ReactIcon} alt="React icon" />
+              <img src={SassIcon} alt="Sass icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -158,6 +192,11 @@ const Projects = () => {
               <div id="project_7"></div>
             </div>
             <h2>BMI Calculator</h2>
+            <div className="icon_container">
+              <img src={ReactIcon} alt="React icon" />
+              <img src={TsIcon} alt="Typescript icon" />
+              <img src={StyledIcon} alt="Styled Components icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
@@ -182,6 +221,9 @@ const Projects = () => {
               <div id="project_8"></div>
             </div>
             <h2>TKoin Blockchain</h2>
+            <div className="icon_container">
+              <img src={PyIcon} alt="Python icon" />
+            </div>
             <div className="link_container">
               <a
                 className="link_icon"
