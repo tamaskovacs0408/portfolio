@@ -21,33 +21,89 @@ import Sass from "../../Assets/Skill_icons/sass.svg";
 import Styled from "../../Assets/Skill_icons/styled.svg";
 import TS from "../../Assets/Skill_icons/ts.svg";
 
-
-
 const Skills = () => {
   return (
     <section className="skills__container">
       <h1>SKILLS</h1>
       <div className="skill_logo_container">
-        <img src={Bootstrap} alt="skill logo" />
-        <img src={CSS} alt="skill logo" />
-        <img src={Express} alt="skill logo" />
-        <img src={Firebase} alt="skill logo" />
-        <img src={Git} alt="skill logo" />
-        <img src={Github} alt="skill logo" />
-        <img src={HTML} alt="skill logo" />
-        <img src={Js} alt="skill logo" />
-        <img src={Markdown} alt="skill logo" />
-        <img src={Mongo} alt="skill logo" />
-        <img src={MUI} alt="skill logo" />
-        <img src={Next} alt="skill logo" />
-        <img src={Node} alt="skill logo" />
-        <img src={NPM} alt="skill logo" />
-        <img src={Python} alt="skill logo" />
-        <img src={ReactLogo} alt="skill logo" />
-        <img src={ReduxLogo} alt="skill logo" />
-        <img src={Sass} alt="skill logo" />
-        <img src={Styled} alt="skill logo" />
-        <img src={TS} alt="skill logo" />
+        <div>
+          <img src={Bootstrap} alt="skill logo" />
+        </div>
+        <div>
+          <img src={CSS} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Express} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Firebase} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Git} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Github} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={HTML} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Js} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Markdown} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Mongo} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={MUI} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Next} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Node} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={NPM} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Python} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={ReactLogo} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={ReduxLogo} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Sass} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={Styled} alt="skill logo" />
+        </div>
+
+        <div>
+          <img src={TS} alt="skill logo" />
+        </div>
       </div>
     </section>
   );
