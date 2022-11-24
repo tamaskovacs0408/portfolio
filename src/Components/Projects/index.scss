@@ -140,6 +140,17 @@
         #project_8:hover {
           transform: scale(1.2);
         }
+        #project_9 {
+          width: 100%;
+          height: 100%;
+          background-image: url("../../Assets/Images/rome.png");
+          background-size: cover;
+          overflow: hidden;
+          transition: transform ease-in 0.3s;
+        }
+        #project_9:hover {
+          transform: scale(1.2);
+        }
       }
 
       h2 {
@@ -154,6 +165,10 @@
         img {
           width: 32px;
           margin: 0 5px;
+        }
+
+        .express_icon {
+          width: 55px;
         }
       }
       .link_container {

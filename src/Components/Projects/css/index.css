@@ -199,6 +199,21 @@
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+.projects__container .inner_container .projects .image_container #project_9 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Images/rome.png");
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform ease-in 0.3s;
+  transition: -webkit-transform ease-in 0.3s;
+  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.3s, -webkit-transform ease-in 0.3s;
+}
+.projects__container .inner_container .projects .image_container #project_9:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 .projects__container .inner_container .projects h2 {
   font-size: 3rem;
   text-align: center;
@@ -215,6 +230,9 @@
 .projects__container .inner_container .projects .icon_container img {
   width: 32px;
   margin: 0 5px;
+}
+.projects__container .inner_container .projects .icon_container .express_icon {
+  width: 55px;
 }
 .projects__container .inner_container .projects .link_container {
   display: -webkit-box;
