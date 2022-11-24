@@ -1,7 +1,7 @@
 import Loader from "react-loaders";
 import "./index.scss";
 import ProfilePic from "../../Assets/Images/profile_photo.png";
-import CV from '../../Assets/CV/Tamas_Kovacs_Resume.pdf';
+import CV from "../../Assets/CV/Tamas_Kovacs_Resume.pdf";
 
 const About = () => {
   return (
@@ -16,11 +16,7 @@ const About = () => {
           </p>
           <p>
             I have experience with front-end development, mainly use ReactJS and
-            JavaScript, but I'm eager and open to learn new technologies. This
-            summer I was attend the EPAM's Junior Front-end Program, where I
-            gained a lot of experience with algorithms and problem solving by a
-            ton of Codewars katas. I have some basic experience with Python and
-            I would like to deepen my knowledge with it in the future.
+            JavaScript, but I'm eager and open to learn new technologies. 
           </p>
           <p>
             For more information visit my{" "}
@@ -49,9 +45,11 @@ const About = () => {
             >
               Github
             </a>{" "}
-            profile, or you can download my <a className="about_link" href={CV} download>
+            profile, or you can download my{" "}
+            <a className="about_link" href={CV} download>
               resume
-            </a>.
+            </a>
+            .
           </p>
         </article>
         <article className="image_container">
