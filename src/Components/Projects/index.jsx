@@ -12,6 +12,7 @@ import SassIcon from "../../Assets/Icons/sass.png";
 import HtmlIcon from "../../Assets/Icons/html.png";
 import MuIcon from "../../Assets/Icons/mui.png";
 import StyledIcon from "../../Assets/Icons/styled.png";
+import ExpressIcon from "../../Assets/Icons/express.png";
 
 const Projects = () => {
   return (
@@ -232,6 +233,33 @@ const Projects = () => {
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faCode} />
+              </a>
+            </div>
+          </div>
+          <div className="projects project_9">
+            <div className="image_container">
+              <div id="project_9"></div>
+            </div>
+            <h2>Rome Sights</h2>
+            <div className="icon_container">
+              <img className="express_icon" src={ExpressIcon} alt="Express icon" />
+            </div>
+            <div className="link_container">
+              <a
+                className="link_icon"
+                href="https://github.com/tamaskovacs0408/Rome"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faCode} />
+              </a>
+              <a
+                className="link_icon"
+                href="https://romexpress.vercel.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faWindowMaximize} />
               </a>
             </div>
           </div>
