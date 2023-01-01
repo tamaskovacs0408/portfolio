@@ -259,6 +259,7 @@
     font-size: 6rem;
   }
   .projects__container .inner_container {
+    width: 90%;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -267,6 +268,7 @@
     font-size: 7rem;
   }
   .projects__container .inner_container {
+    width: 80%;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
