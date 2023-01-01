@@ -69,6 +69,14 @@
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
+.skills__container .skill_logo_container .colorize {
+  -webkit-filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(77deg) brightness(105%) contrast(100%);
+          filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(77deg) brightness(105%) contrast(100%);
+}
+.skills__container .skill_logo_container .colorize:hover {
+  -webkit-filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(77deg) brightness(105%) contrast(100%);
+          filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(77deg) brightness(105%) contrast(100%);
+}
 
 @media screen and (min-width: 768px) {
   .skills__container h1 {

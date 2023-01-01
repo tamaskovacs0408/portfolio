@@ -49,6 +49,12 @@
         filter: grayscale(0%);
       }
     }
+    .colorize {
+      filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(77deg) brightness(105%) contrast(100%);
+    }
+    .colorize:hover {
+      filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(77deg) brightness(105%) contrast(100%);
+    }
   }
 }
 
