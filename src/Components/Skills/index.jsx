@@ -8,7 +8,6 @@ import Git from "../../Assets/Skill_icons/git-original-wordmark.svg";
 import Github from "../../Assets/Skill_icons/github.svg";
 import HTML from "../../Assets/Skill_icons/html.svg";
 import Js from "../../Assets/Skill_icons/js.svg";
-import Markdown from "../../Assets/Skill_icons/md.svg";
 import Mongo from "../../Assets/Skill_icons/mongo.svg";
 import MUI from "../../Assets/Skill_icons/mui.svg";
 import Next from "../../Assets/Skill_icons/next.svg";
@@ -34,7 +33,7 @@ const Skills = () => {
         </div>
 
         <div>
-          <img src={Express} alt="skill logo" />
+          <img src={Express} alt="skill logo" className="colorize" />
         </div>
 
         <div>
@@ -46,7 +45,7 @@ const Skills = () => {
         </div>
 
         <div>
-          <img src={Github} alt="skill logo" />
+          <img src={Github} alt="skill logo"/>
         </div>
 
         <div>
@@ -58,10 +57,6 @@ const Skills = () => {
         </div>
 
         <div>
-          <img src={Markdown} alt="skill logo" />
-        </div>
-
-        <div>
           <img src={Mongo} alt="skill logo" />
         </div>
 
@@ -70,7 +65,7 @@ const Skills = () => {
         </div>
 
         <div>
-          <img src={Next} alt="skill logo" />
+          <img src={Next} alt="skill logo" className="colorize" />
         </div>
 
         <div>
