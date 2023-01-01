@@ -1,6 +1,6 @@
 import Loader from "react-loaders";
+import { NavLink } from "react-router-dom";
 import "./index.scss";
-import ProfilePic from "../../Assets/Images/profile_photo.png";
 import CV from "../../Assets/CV/Tamas_Kovacs_Resume.pdf";
 
 const About = () => {
@@ -10,13 +10,15 @@ const About = () => {
         <article className="text_container">
           <h1>ABOUT ME</h1>
           <p>
-            I am a self-taught, highly motivated front-end developer. I'm a good
-            team player but I can work on my own, as well. In my free time I
-            like reading and photography.
-          </p>
-          <p>
-            I have experience with front-end development, mainly use ReactJS and
-            JavaScript, but I'm eager and open to learn new technologies. 
+            I'm a Junior Web Developer mainly focused on frond-end development.<br/>
+            Mostly using React, but I'm completely open to other tech stacks as
+            well.
+            <br />
+            You can see my full tech stack on the{" "}
+            <NavLink className="about_link" to="/skills">
+              Skills
+            </NavLink>{" "}
+            page.
           </p>
           <p>
             For more information visit my{" "}
@@ -51,9 +53,6 @@ const About = () => {
             </a>
             .
           </p>
-        </article>
-        <article className="image_container">
-          <img src={ProfilePic} alt="Profile" />
         </article>
       </section>
       <Loader type="ball-scale-ripple-multiple" />
