@@ -53,6 +53,7 @@
 }
 .about-container .text_container p {
   font-size: 1.5rem;
+  text-align: justify;
   line-height: 1.5;
   width: 80%;
   -webkit-animation: backInUp 2s 2s;
