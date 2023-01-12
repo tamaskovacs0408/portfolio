@@ -10,9 +10,15 @@ const About = () => {
         <article className="text_container">
           <h1>ABOUT ME</h1>
           <p>
-            I'm a Junior Web Developer mainly focused on frond-end development.<br/>
-            Mostly using React, but I'm completely open to other tech stacks as
-            well.
+            I am a junior web developer, who specializes in frontend
+            development. I have a solid understanding of React concepts and I
+            have experience in building web applications using it. I have also
+            gained basic knowledge of Express.js and Python, which I have used
+            to build web applications. <br /> <br /> I'm a quick learner and
+            always eager to learn new technologies to improve my skillset and
+            stay current with the industry. <br /> <br /> My goal is to continue
+            to build my skills and knowledge to become a proficient web
+            developer.
             <br />
             You can see my full tech stack on the{" "}
             <NavLink className="about_link" to="/skills">
