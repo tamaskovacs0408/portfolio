@@ -108,9 +108,8 @@ const Projects = () => {
             </div>
             <h2>Recipe Finder</h2>
             <div className="icon_container">
-              <img src={HtmlIcon} alt="Html icon" />
-              <img src={CssIcon} alt="Css icon" />
-              <img src={JsIcon} alt="JavaScript icon" />
+              <img src={ReactIcon} alt="React icon" />
+              <img src={SassIcon} alt="Sass icon" />
             </div>
             <div className="link_container">
               <a
