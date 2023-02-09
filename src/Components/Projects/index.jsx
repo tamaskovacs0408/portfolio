@@ -123,7 +123,7 @@ const Projects = () => {
               </a>
               <a
                 className="link_icon"
-                href="https://tamaskovacs0408.github.io/recipes_project/"
+                href="https://recipe-finder-tkwebdev.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -242,7 +242,11 @@ const Projects = () => {
             </div>
             <h2>Rome Sights</h2>
             <div className="icon_container">
-              <img className="express_icon" src={ExpressIcon} alt="Express icon" />
+              <img
+                className="express_icon"
+                src={ExpressIcon}
+                alt="Express icon"
+              />
             </div>
             <div className="link_container">
               <a
