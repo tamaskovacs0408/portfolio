@@ -1,6 +1,6 @@
 # Portfolio site
 
-Check it on [here](https://tkwebdev.vercel.app/).
+Check it: https://tkwebdev.vercel.app
 
 ## About
 
